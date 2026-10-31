@@ -59,10 +59,16 @@
     "author_login": "snoopyjim"
   },
   "publication": {
-    "github_published": false,
+    "github_published": true,
     "reference_template_verified": false,
     "destination_repository": "Machine-Learning-NYCU/kaggle1-competition-ml2026-iaii-regression",
     "write_access": true,
-    "authenticated_login": "snoopyjim"
+    "authenticated_login": "snoopyjim",
+    "artifact_commit_verified": "ca7b882a176e7e3270f8d9ac0125f4b8b10ba0e8",
+    "all_remote_file_hashes_match": true,
+    "remote_files_verified": 175,
+    "remote_title_verified": "314580075｜ML2026@IAII - Regression｜Kaggle 1 Competition",
+    "remote_author_email_verified": "adogg5528@gmail.com",
+    "verified_at": "2026-10-31T19:43:13+08:00"
   }
 }
