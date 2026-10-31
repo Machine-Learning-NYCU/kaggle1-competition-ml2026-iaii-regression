@@ -2,7 +2,7 @@
 
 以時間回測、建案分組與外部資料隔離，建立台灣住宅成交總價預測系統。評分指標為原始新臺幣總價的 **MAE**。
 
-作者：**黃駿甯（學號 314580075）** · GitHub：`jimhuang0731` · 提交 email：`adogg5528@gmail.com`。
+作者：**黃駿甯（學號 314580075）** · GitHub：`snoopyjim` · 提交 email：`adogg5528@gmail.com`。
 
 目標作業 repo：[Machine-Learning-NYCU/kaggle1-competition-ml2026-iaii-regression](https://github.com/Machine-Learning-NYCU/kaggle1-competition-ml2026-iaii-regression)。
 

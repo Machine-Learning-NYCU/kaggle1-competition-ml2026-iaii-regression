@@ -38,7 +38,7 @@
   },
   "private_score_known": false,
   "check_scope": "Hash/schema/aggregate consistency; not model retraining or fresh evaluation.",
-  "verified_at": "2026-10-31T19:39:26+08:00",
+  "verified_at": "2026-10-31T19:42:53+08:00",
   "synthetic_tests": {
     "command": "OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 python -m pytest -q",
     "working_directory": "project",
@@ -51,16 +51,18 @@
   "pdf": {
     "path": "report/report.pdf",
     "pages": 6,
-    "sha256": "a3b420f1d917e354d9183f80fb7f01131f08d954e4fa9739020c9f9c5a1ad84c",
+    "sha256": "478e4ece407e89b84642507f47232bafca453e7cd063df03c459e47929404479",
     "build": "XeLaTeX via latexmk; successful",
-    "visual_review": "Student-ID title page rendered and inspected after rebuild; prior report pages inspected before title-only revision.",
+    "visual_review": "Student-ID title page inspected previously; author-only rebuild verified with PDF text extraction and no overflow or missing-glyph warnings.",
     "missing_glyphs_or_overfull_boxes": false,
-    "title_includes_student_id": "314580075"
+    "title_includes_student_id": "314580075",
+    "author_login": "snoopyjim"
   },
   "publication": {
     "github_published": false,
     "reference_template_verified": false,
     "destination_repository": "Machine-Learning-NYCU/kaggle1-competition-ml2026-iaii-regression",
-    "write_access": false
+    "write_access": true,
+    "authenticated_login": "snoopyjim"
   }
 }
