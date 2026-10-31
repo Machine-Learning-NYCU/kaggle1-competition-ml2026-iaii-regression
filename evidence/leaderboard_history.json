@@ -1,0 +1,92 @@
+[
+  {
+    "reported_by": "user",
+    "submitted_filename": "submission1017.csv",
+    "source_filename": "submission.csv",
+    "source_match": "user confirmed rename; uploaded bytes not independently available",
+    "source_sha256": "14f106316ca69c8f6f0912e259e7f9838422b7df303ec36f41d673bf7182a430",
+    "score_mae": 2393304.6257,
+    "leader_score_at_report": 1585763.6199,
+    "feedback_used_for": "diagnose validation mismatch; not fit a public-score correction factor"
+  },
+  {
+    "reported_by": "user",
+    "submitted_filename": "submission1017_v2.csv",
+    "source_sha256": "af2801ca7212ce570fac62199b47de88a263f16afe368c95a6357731d8539b66",
+    "score_mae": 2188394.3386,
+    "previous_score_mae": 2393304.6257,
+    "improvement_fraction": 0.08561813857693423,
+    "feedback_used_for": "global validation and research direction only; no test-label reconstruction"
+  },
+  {
+    "reported_by": "user",
+    "reported_date_local": "2026-10-17",
+    "submitted_filename": "submission1017_v3.csv",
+    "source_sha256": "7b501f7ac7003e64c9bc5d9ed1e4dddd419a3c9def95dde863886ebc445871d3",
+    "source_match": "Filename matches local verified artifact; uploaded bytes not independently available",
+    "score_mae": 2092770.8572,
+    "previous_score_mae": 2188394.3386,
+    "improvement_ntd": 95623.48139999993,
+    "improvement_fraction": 0.043695726914178556,
+    "improvement_from_initial_fraction": 0.1255727186889547,
+    "feedback_used_for": "Record measured public improvement; no new model or blend fitted to this score"
+  },
+  {
+    "reported_by": "user",
+    "reported_date_local": "2026-10-17",
+    "submitted_filename": "submission1017_v4.csv",
+    "source_sha256": "723ce5f0c04740fdcdc4ff9cfc3976deddb644a0462fa5ab3e6a8b28aff7e058",
+    "source_match": "Filename matches verified local artifact; uploaded bytes not independently available",
+    "score_mae": 2043963.0611,
+    "previous_score_mae": 2092770.8572,
+    "improvement_ntd": 48807.79609999992,
+    "improvement_fraction": 0.023322092780526327,
+    "improvement_from_initial_fraction": 0.1459661928735143,
+    "feedback_used_for": "Record public score; no scalar or subgroup adjustment fitted to the public score",
+    "external_policy_experiment_authorized_by_user": true
+  },
+  {
+    "reported_by": "user",
+    "reported_date_local": "2026-10-17",
+    "submitted_filename": "submission1017_v5.csv",
+    "source_sha256": "439ffe0d09d4a1e24e92a1484b9cda670b481a72c397d03843300f8378d6ab8e",
+    "source_match": "Filename matches local verified artifact; uploaded bytes not independently available",
+    "score_mae": 1739081.117,
+    "reference_v4_mae": 2043963.0611,
+    "improvement_over_v4_ntd": 304881.94409999996,
+    "improvement_over_v4_fraction": 0.14916215948438988,
+    "method": "Published per-unit offer lookup; comparison only, does not meet user clarified trained-model criterion",
+    "official_competition_rules_verified": false,
+    "feedback_used_for": "Record observed public score; no fitting or per-row correction using this feedback"
+  },
+  {
+    "reported_by": "user",
+    "reported_date_local": "2026-10-17",
+    "submitted_filename": "submission1017_v6.csv",
+    "source_sha256": "53bde5d7fa8c97d95ab8897c905b38cf01e16cda6a6eea48f8605a5b848aadd6",
+    "source_match": "Filename matches local verified artifact; uploaded bytes not independently available",
+    "score_mae": 1745458.0575,
+    "reference_v4_mae": 2043963.0611,
+    "improvement_over_v4_ntd": 298505.00359999994,
+    "improvement_over_v4_fraction": 0.1460422691980321,
+    "method": "Trained model on 441 other units; query-unit offers excluded; no identity-based price lookup",
+    "official_competition_rules_verified": false,
+    "feedback_used_for": "Record observed public score; no fitting or per-row correction using this feedback"
+  },
+  {
+    "reported_by": "user",
+    "reported_date_local": "2026-10-18",
+    "submitted_filename": "submission1017_v7.csv",
+    "source_sha256": "c6984c5d86f20e794c774d65c52bdf46e4c0b2c7012ad57ff33f43982cc8eda7",
+    "source_match": "Filename matches verified local artifact; uploaded bytes not independently available",
+    "score_mae": 1716414.5323,
+    "previous_score_mae": 1745458.0575,
+    "improvement_ntd": 29043.5252,
+    "improvement_fraction": 0.016639486165367225,
+    "method": "Frozen 50% blend of v6 and two geography CatBoost seeds on strictly unseen non-relocation projects; new branch learns from competition train with non-price external road-location features; inherits learned v6 policy branch",
+    "best_among_user_reported_versions": true,
+    "meets_user_no_answer_lookup_criterion": true,
+    "official_competition_rules_verified": false,
+    "feedback_used_for": "Record public score and confirm current candidate choice; no model, blend weight, or per-row correction fitted to this feedback"
+  }
+]

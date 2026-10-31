@@ -1,0 +1,13 @@
+{
+  "reported_by": "user",
+  "reported_date_local": "2026-10-17",
+  "submitted_filename": "submission1017_v3.csv",
+  "source_sha256": "7b501f7ac7003e64c9bc5d9ed1e4dddd419a3c9def95dde863886ebc445871d3",
+  "source_match": "Filename matches local verified artifact; uploaded bytes not independently available",
+  "score_mae": 2092770.8572,
+  "previous_score_mae": 2188394.3386,
+  "improvement_ntd": 95623.48139999993,
+  "improvement_fraction": 0.043695726914178556,
+  "improvement_from_initial_fraction": 0.1255727186889547,
+  "feedback_used_for": "Record measured public improvement; no new model or blend fitted to this score"
+}

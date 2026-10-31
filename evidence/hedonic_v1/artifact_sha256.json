@@ -1,0 +1,9 @@
+{
+  "artifacts/hedonic_v1/final/net_log.joblib": "c53c767523dd0259a59ba27f4bb91a824acc1623e0e10d5fcd5c7b1f41258e8b",
+  "artifacts/hedonic_v1/final/deep_log.joblib": "2ed793ac875299709a9c85bfcc505d85dcb8a7c1acdf7402a20c112f064bae75",
+  "artifacts/hedonic_v1/config.json": "2cea3b32751453000c99e163158dd3ebe40bd27ee9bb97027a062013f59f9d06",
+  "artifacts/hedonic_v1/selection.json": "c6131e84161b090cf7dd9c46db7469d68c08d18fe6d58fc786be814eb043010e",
+  "artifacts/robust_v1/selection.json": "a9aa436a01775e31852b50d089f2fd97389d03e6850a050b6e8e2349669cac66",
+  "artifacts/spatial_v1/final/total_preprocess.joblib": "c01a664026b0ca359e1333fda0991e30f93c133f7fe4a100186e5add0c68c6ed",
+  "artifacts/spatial_v1/final/net_preprocess.joblib": "3fd0b67b0c5e801ef2bd76e7af498cbfff7ecd71744b2b1b2569fbba5cf0c1ee"
+}

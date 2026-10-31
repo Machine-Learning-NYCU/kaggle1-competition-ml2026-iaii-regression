@@ -1,0 +1,38 @@
+{
+  "comparison": "Same log-total CatBoost and rounds, remove causal market features only",
+  "fixed_model_not_used_for_selection": true,
+  "evaluations": {
+    "calibration": {
+      "without_market": {
+        "rmsle": 0.11306021666647989,
+        "rmse": 2419009.7717078784,
+        "mae": 1424775.5013221533,
+        "mape": 0.08343758393505352,
+        "within_10pct": 0.6935741546108103
+      },
+      "with_market": {
+        "rmsle": 0.10584113723568664,
+        "rmse": 2474182.7809405667,
+        "mae": 1259180.9375577332,
+        "mape": 0.07244438804381771,
+        "within_10pct": 0.7737640898198278
+      }
+    },
+    "temporal_audit": {
+      "without_market": {
+        "rmsle": 0.14193604117679856,
+        "rmse": 17685643.705584593,
+        "mae": 2076087.295330355,
+        "mape": 0.10369450776121848,
+        "within_10pct": 0.57722386243267
+      },
+      "with_market": {
+        "rmsle": 0.13253511205318946,
+        "rmse": 16264115.292315073,
+        "mae": 1883933.1172048212,
+        "mape": 0.09331962040437623,
+        "within_10pct": 0.6428072389623853
+      }
+    }
+  }
+}

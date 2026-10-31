@@ -1,0 +1,24 @@
+{
+  "weights": [
+    0.3092880647639149,
+    0.3173757893473564,
+    0.30950904479956065,
+    0.06382710108916821
+  ],
+  "scale": 1.0016982602166171,
+  "optimization": {
+    "optimizer": "HiGHS interior-point linear program",
+    "penalty": 0.02,
+    "objective": 0.9894773323697216,
+    "optimality_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "calibration_mae": 1162110.3736704874
+  },
+  "calibration": {
+    "rmsle": 0.10341783775289543,
+    "rmse": 2261916.9852929725,
+    "mae": 1161761.1275317392,
+    "mape": 0.06830954351695008,
+    "within_10pct": 0.7954202538386438
+  },
+  "labels_used": "2024-01 through 2024-04 only"
+}

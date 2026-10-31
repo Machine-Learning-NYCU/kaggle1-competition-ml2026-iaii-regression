@@ -1,0 +1,9 @@
+{
+  "method_general_without_identity_lookup": true,
+  "same_policy_cross_base_transfer_supported": true,
+  "source_domain_transfer_less_certain": true,
+  "all_relocation_policies_generalization_established": false,
+  "actual_sale_price_accuracy_established": false,
+  "retired_lookup_method_reintroduced": false,
+  "action": "Retain frozen v7 and v6; no test-price lookup, no new per-project adjustments, no submission changes."
+}

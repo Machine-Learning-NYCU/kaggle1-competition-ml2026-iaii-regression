@@ -1,0 +1,46 @@
+{
+  "version": "policy_learned_v1",
+  "source_sha256": {
+    "train_policy_learned.py": "471254ff7dbcd7bc7229c47e8d04da0136c933dc7974ed5b947f0d76ebaf49a5",
+    "test_policy_learned.py": "d6b011aacf6c35b09f07c7a4859d6978a0be271fee5db44024dbab7fabc45eed",
+    "features.py": "59007e4cec3c7dcf2cf0e85d95e8e22c0a524db3633185fe453b33621d258e85",
+    "policy_tables.py": "2c1f0411e1dd760f1446b35b375a8144baaf9151b4fcba07d37daeba644bcdf9",
+    "policy_expert.py": "24da69e27559b51e2bcfc0b3ec70461af761054e72b331fbd37fbf0ebc56b4d5",
+    "train_mae.py": "a30479a6734f23d215ae1fbf27d2c587e30b98938b5b00e310ba002ccab4d946"
+  },
+  "input_sha256": {
+    "data/test.parquet": "4e3ea5278a17539b649593d1089f278c33de2b0cabd8a217aad40a59abf7c53c",
+    "submission1017_v4.csv": "723ce5f0c04740fdcdc4ff9cfc3976deddb644a0462fa5ab3e6a8b28aff7e058",
+    "artifacts/policy_v1/house_schedules.csv": "27b261f78c1faf506d5c6ea924911a54a56451e5a3fd5f8f12d1823030e99afa",
+    "artifacts/policy_v1/parking_schedules.csv": "539d43392066ccda5a4df921556e4b9872fc04aa166b3e8ca1fe80037bacdc61"
+  },
+  "features": [
+    "net_area_100sqm",
+    "floor_10",
+    "floor_10_squared",
+    "first_floor",
+    "second_floor",
+    "terrace"
+  ],
+  "excluded_identifiers": [
+    "編號",
+    "建案名稱",
+    "棟及號",
+    "address"
+  ],
+  "exclude_query_unit_labels": true,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "group": "whole project",
+  "candidates": [
+    "median_unit",
+    "linear_l1",
+    "shallow_l1"
+  ],
+  "selection": "macro-project MAE; simplest within 1%",
+  "parking": "L1 intercept fitted to official parking inventory; no per-project lookup",
+  "discount": "observed original-minus-reduced amount; deterministic accounting, not trained",
+  "evaluation": "Offer-price proxy CV; not actual test-sale MAE",
+  "source_availability": "Offers before affected query dates, not all before train cutoff",
+  "user_requirement": "Trained general prediction; no per-query offer lookup or public-score adjustment"
+}

@@ -1,0 +1,241 @@
+{
+  "training_rows": 441,
+  "excluded_test_unit_labels": 1404,
+  "training_projects": 10,
+  "features": [
+    "net_area_100sqm",
+    "floor_10",
+    "floor_10_squared",
+    "first_floor",
+    "second_floor",
+    "terrace"
+  ],
+  "selected": "linear_l1",
+  "nested_group_offer_mae": 274037.60757104686,
+  "nested_group_baseline_offer_mae": 302284.67402067373,
+  "nested_group_macro_project_mae": 238004.63742370842,
+  "final_selection_cv": {
+    "median_unit": {
+      "row_mae": 302284.67402067373,
+      "macro_project_mae": 274609.94060911646,
+      "worst_project_mae": 468264.2022575479
+    },
+    "linear_l1": {
+      "row_mae": 252165.27936384678,
+      "macro_project_mae": 228987.54827766857,
+      "worst_project_mae": 377013.3132276117
+    },
+    "shallow_l1": {
+      "row_mae": 282313.2290194911,
+      "macro_project_mae": 252624.45165905816,
+      "worst_project_mae": 395784.25920689706
+    }
+  },
+  "outer_folds": [
+    {
+      "fold": 0,
+      "fit_projects": [
+        "桃園航空城A11基地",
+        "桃園航空城A18-1基地",
+        "桃園航空城A18-2基地",
+        "桃園航空城A18-3基地",
+        "桃園航空城機場園區街廓1基地",
+        "桃園航空城機場園區街廓2基地",
+        "桃園航空城機場園區街廓3基地",
+        "桃園航空城機場園區街廓5基地",
+        "桃園航空城機場園區街廓6基地"
+      ],
+      "heldout_projects": [
+        "桃園航空城G17基地"
+      ],
+      "train_rows": 307,
+      "heldout_rows": 134,
+      "selected": "shallow_l1",
+      "inner_scores": {
+        "median_unit": {
+          "row_mae": 342397.14689143485,
+          "macro_project_mae": 284473.2413662071,
+          "worst_project_mae": 478767.37582114746
+        },
+        "linear_l1": {
+          "row_mae": 309468.37184005295,
+          "macro_project_mae": 264779.34923137823,
+          "worst_project_mae": 429062.59340620955
+        },
+        "shallow_l1": {
+          "row_mae": 329493.40208174096,
+          "macro_project_mae": 254787.53544279194,
+          "worst_project_mae": 483725.2735054642
+        }
+      },
+      "heldout_mae": 219078.24785588673,
+      "baseline_mae": 199342.7575980004
+    },
+    {
+      "fold": 1,
+      "fit_projects": [
+        "桃園航空城A11基地",
+        "桃園航空城A18-1基地",
+        "桃園航空城A18-2基地",
+        "桃園航空城A18-3基地",
+        "桃園航空城G17基地",
+        "桃園航空城機場園區街廓1基地",
+        "桃園航空城機場園區街廓2基地",
+        "桃園航空城機場園區街廓5基地",
+        "桃園航空城機場園區街廓6基地"
+      ],
+      "heldout_projects": [
+        "桃園航空城機場園區街廓3基地"
+      ],
+      "train_rows": 361,
+      "heldout_rows": 80,
+      "selected": "linear_l1",
+      "inner_scores": {
+        "median_unit": {
+          "row_mae": 276069.6943256907,
+          "macro_project_mae": 235314.81490479238,
+          "worst_project_mae": 422917.84933760547
+        },
+        "linear_l1": {
+          "row_mae": 210144.12202662328,
+          "macro_project_mae": 175937.2376310489,
+          "worst_project_mae": 302393.19475099596
+        },
+        "shallow_l1": {
+          "row_mae": 256314.1898987063,
+          "macro_project_mae": 209117.4765510301,
+          "worst_project_mae": 384578.308268387
+        }
+      },
+      "heldout_mae": 377013.3132276117,
+      "baseline_mae": 402862.5694710712
+    },
+    {
+      "fold": 2,
+      "fit_projects": [
+        "桃園航空城A11基地",
+        "桃園航空城A18-1基地",
+        "桃園航空城A18-2基地",
+        "桃園航空城A18-3基地",
+        "桃園航空城G17基地",
+        "桃園航空城機場園區街廓2基地",
+        "桃園航空城機場園區街廓3基地",
+        "桃園航空城機場園區街廓5基地",
+        "桃園航空城機場園區街廓6基地"
+      ],
+      "heldout_projects": [
+        "桃園航空城機場園區街廓1基地"
+      ],
+      "train_rows": 363,
+      "heldout_rows": 78,
+      "selected": "median_unit",
+      "inner_scores": {
+        "median_unit": {
+          "row_mae": 299325.315680401,
+          "macro_project_mae": 253078.18535128675,
+          "worst_project_mae": 456068.68090958335
+        },
+        "linear_l1": {
+          "row_mae": 272119.54682366236,
+          "macro_project_mae": 254309.53667602563,
+          "worst_project_mae": 406185.6685053102
+        },
+        "shallow_l1": {
+          "row_mae": 316703.4496202192,
+          "macro_project_mae": 300259.68357722997,
+          "worst_project_mae": 483478.8771220412
+        }
+      },
+      "heldout_mae": 307636.7529061763,
+      "baseline_mae": 307636.7529061763
+    },
+    {
+      "fold": 3,
+      "fit_projects": [
+        "桃園航空城A11基地",
+        "桃園航空城G17基地",
+        "桃園航空城機場園區街廓1基地",
+        "桃園航空城機場園區街廓3基地",
+        "桃園航空城機場園區街廓5基地",
+        "桃園航空城機場園區街廓6基地"
+      ],
+      "heldout_projects": [
+        "桃園航空城A18-1基地",
+        "桃園航空城A18-2基地",
+        "桃園航空城A18-3基地",
+        "桃園航空城機場園區街廓2基地"
+      ],
+      "train_rows": 370,
+      "heldout_rows": 71,
+      "selected": "linear_l1",
+      "inner_scores": {
+        "median_unit": {
+          "row_mae": 281900.1256278409,
+          "macro_project_mae": 285486.8553115811,
+          "worst_project_mae": 435415.9884993996
+        },
+        "linear_l1": {
+          "row_mae": 237143.19406191484,
+          "macro_project_mae": 230535.4031441362,
+          "worst_project_mae": 365763.60006578907
+        },
+        "shallow_l1": {
+          "row_mae": 267796.2958337075,
+          "macro_project_mae": 261615.76946942325,
+          "worst_project_mae": 416459.4809879024
+        }
+      },
+      "heldout_mae": 241238.92258229564,
+      "baseline_mae": 280032.042126454
+    },
+    {
+      "fold": 4,
+      "fit_projects": [
+        "桃園航空城A18-1基地",
+        "桃園航空城A18-2基地",
+        "桃園航空城A18-3基地",
+        "桃園航空城G17基地",
+        "桃園航空城機場園區街廓1基地",
+        "桃園航空城機場園區街廓2基地",
+        "桃園航空城機場園區街廓3基地"
+      ],
+      "heldout_projects": [
+        "桃園航空城A11基地",
+        "桃園航空城機場園區街廓5基地",
+        "桃園航空城機場園區街廓6基地"
+      ],
+      "train_rows": 363,
+      "heldout_rows": 78,
+      "selected": "linear_l1",
+      "inner_scores": {
+        "median_unit": {
+          "row_mae": 269586.2645961188,
+          "macro_project_mae": 232600.9955588831,
+          "worst_project_mae": 376706.50933139026
+        },
+        "linear_l1": {
+          "row_mae": 269468.8523677463,
+          "macro_project_mae": 210329.4558387843,
+          "worst_project_mae": 329745.4855746493
+        },
+        "shallow_l1": {
+          "row_mae": 280157.5114792085,
+          "macro_project_mae": 244603.58705257878,
+          "worst_project_mae": 443253.08432254643
+        }
+      },
+      "heldout_mae": 259094.92869114323,
+      "baseline_mae": 390880.31345691514
+    }
+  ],
+  "learned_parking_median": 950000.0,
+  "parking_training_rows": 2090,
+  "changed_rows": 1408,
+  "unchanged_rows": 45665,
+  "relocation_prediction_mean": 9707702.62249904,
+  "relocation_prediction_min": 2710644.3112363284,
+  "relocation_prediction_max": 13198522.80585292,
+  "identifier_free_inference_verified": true,
+  "public_mae": null,
+  "submission_sha256": "53bde5d7fa8c97d95ab8897c905b38cf01e16cda6a6eea48f8605a5b848aadd6"
+}

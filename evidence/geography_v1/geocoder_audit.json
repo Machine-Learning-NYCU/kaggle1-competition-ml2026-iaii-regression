@@ -1,0 +1,43 @@
+{
+  "input_rows": 360587,
+  "invalid_coordinates": 1,
+  "unparsed_or_inconsistent_district": 65,
+  "retained_rows": 360521,
+  "table_keys": {
+    "city": 22,
+    "district": 380,
+    "cross": 54032,
+    "segment": 31865,
+    "road": 44722
+  },
+  "reference_year": 2020,
+  "external_price_fields_used": false,
+  "heldout_a1": [
+    {
+      "level": 2,
+      "rows": 542,
+      "median_error_km": 3.0031605416557343,
+      "p90_error_km": 6.788296658700063
+    },
+    {
+      "level": 3,
+      "rows": 813,
+      "median_error_km": 0.5607776566874368,
+      "p90_error_km": 2.028042394049755
+    },
+    {
+      "level": 4,
+      "rows": 207,
+      "median_error_km": 0.10604443410173604,
+      "p90_error_km": 0.45168958173473867
+    },
+    {
+      "level": 5,
+      "rows": 244,
+      "median_error_km": 0.009938036917431704,
+      "p90_error_km": 0.41025688118521303
+    }
+  ],
+  "source_vintage": "2020 events; all three CSV footers declare provision on 2021-07-01, before the earliest forecast cutoff 2021-08-10. Downloaded bytes are not independently authenticated as the original snapshot. No house-price labels exist in this reference.",
+  "declared_source_provision_date": "2021-07-01"
+}

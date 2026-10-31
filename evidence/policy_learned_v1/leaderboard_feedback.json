@@ -1,0 +1,14 @@
+{
+  "reported_by": "user",
+  "reported_date_local": "2026-10-17",
+  "submitted_filename": "submission1017_v6.csv",
+  "source_sha256": "53bde5d7fa8c97d95ab8897c905b38cf01e16cda6a6eea48f8605a5b848aadd6",
+  "source_match": "Filename matches local verified artifact; uploaded bytes not independently available",
+  "score_mae": 1745458.0575,
+  "reference_v4_mae": 2043963.0611,
+  "improvement_over_v4_ntd": 298505.00359999994,
+  "improvement_over_v4_fraction": 0.1460422691980321,
+  "method": "Trained model on 441 other units; query-unit offers excluded; no identity-based price lookup",
+  "official_competition_rules_verified": false,
+  "feedback_used_for": "Record observed public score; no fitting or per-row correction using this feedback"
+}

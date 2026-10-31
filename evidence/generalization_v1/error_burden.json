@@ -1,0 +1,18 @@
+[
+  {
+    "fold": "stress2021",
+    "rows": 105637,
+    "unseen_rows": 90524,
+    "unseen_mae": 2448157.977554195,
+    "seen_mae": 1183417.0284488795,
+    "unseen_error_share": 0.9253243021405029
+  },
+  {
+    "fold": "development",
+    "rows": 81341,
+    "unseen_rows": 52319,
+    "unseen_mae": 1662990.9957124086,
+    "seen_mae": 668711.9722709771,
+    "unseen_error_share": 0.8176229531435091
+  }
+]

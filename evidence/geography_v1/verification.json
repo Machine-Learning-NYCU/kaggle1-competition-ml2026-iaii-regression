@@ -1,0 +1,10 @@
+{
+  "rows": 47073,
+  "eligible_rows": 28374,
+  "changed_rows": 28374,
+  "protected_rows_unchanged": true,
+  "public_mae": null,
+  "submission_sha256": "c6984c5d86f20e794c774d65c52bdf46e4c0b2c7012ad57ff33f43982cc8eda7",
+  "base_v6_sha256": "53bde5d7fa8c97d95ab8897c905b38cf01e16cda6a6eea48f8605a5b848aadd6",
+  "new_branch_uses_external_prices": false
+}

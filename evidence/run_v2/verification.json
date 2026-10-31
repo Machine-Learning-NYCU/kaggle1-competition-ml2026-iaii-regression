@@ -1,0 +1,23 @@
+{
+  "submission_rmsle.csv": {
+    "rows": 47073,
+    "positive_finite": true,
+    "ordered_ids_match": true,
+    "sha256_match": true,
+    "min_prediction": 225019.8592742869,
+    "max_prediction": 4551959514.13306
+  },
+  "submission_rmse.csv": {
+    "rows": 47073,
+    "positive_finite": true,
+    "ordered_ids_match": true,
+    "sha256_match": true,
+    "min_prediction": 302767.5926884936,
+    "max_prediction": 9907464515.47264
+  },
+  "saved_model_reproduction": {
+    "passed": true,
+    "max_absolute_difference_ntd": 0.0
+  },
+  "official_valid_excluded_from_training": true
+}

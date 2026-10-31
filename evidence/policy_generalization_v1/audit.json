@@ -1,0 +1,624 @@
+{
+  "status": "completed",
+  "inference": {
+    "rows": 1408,
+    "identity_removal_invariant": true,
+    "arbitrary_identity_and_price_columns_ignored": true,
+    "row_order_invariant": true,
+    "batch_size_invariant": true,
+    "duplicate_query_invariant": true,
+    "file_access_blocked_during_all_query_predictions": true,
+    "excluded_unit_synthetic_poison_has_no_effect": true,
+    "original_deployment_model_refit_from_safe_labels_reproduced": true,
+    "note_equal_differences_invariant": true,
+    "note_extra_discount_exact": true,
+    "actual_excluded_unit_offer_labels_loaded": false
+  },
+  "validation": {
+    "leave_one_project_out": {
+      "folds": 10,
+      "fixed": {
+        "rows": 441,
+        "row_mae": 243591.59611080805,
+        "baseline_mae": 293780.1176932616,
+        "improvement_pct": 17.083702592445626,
+        "macro_project_mae": 206074.2403196248,
+        "macro_project_baseline_mae": 259898.04716047394,
+        "groups": 10,
+        "groups_improved": 8,
+        "groups_worsened": 2,
+        "descriptive_group_gain_ci95": [
+          30783.82694198318,
+          84770.46535916039
+        ]
+      },
+      "nested": {
+        "rows": 441,
+        "row_mae": 243591.59611080805,
+        "baseline_mae": 293780.1176932616,
+        "improvement_pct": 17.083702592445626,
+        "macro_project_mae": 206074.2403196248,
+        "macro_project_baseline_mae": 259898.04716047394,
+        "groups": 10,
+        "groups_improved": 8,
+        "groups_worsened": 2,
+        "descriptive_group_gain_ci95": [
+          30783.82694198318,
+          84770.46535916039
+        ]
+      },
+      "outer_group_unit": "leave_one_project_out",
+      "minimum_fitting_rows": 307,
+      "maximum_purged_rows": 0,
+      "uncertainty": "Project-cluster descriptive interval; shared source correlations and prior model selection are not corrected. Only two source domains exist."
+    },
+    "leave_related_family_out": {
+      "folds": 8,
+      "fixed": {
+        "rows": 441,
+        "row_mae": 243834.50878039267,
+        "baseline_mae": 293810.89781356056,
+        "improvement_pct": 17.009712507287833,
+        "macro_project_mae": 207405.4664462824,
+        "macro_project_baseline_mae": 260135.81991872442,
+        "groups": 10,
+        "groups_improved": 8,
+        "groups_worsened": 2,
+        "descriptive_group_gain_ci95": [
+          30670.980443888122,
+          84510.46079583571
+        ]
+      },
+      "nested": {
+        "rows": 441,
+        "row_mae": 243834.50878039267,
+        "baseline_mae": 293810.89781356056,
+        "improvement_pct": 17.009712507287833,
+        "macro_project_mae": 207405.4664462824,
+        "macro_project_baseline_mae": 260135.81991872442,
+        "groups": 10,
+        "groups_improved": 8,
+        "groups_worsened": 2,
+        "descriptive_group_gain_ci95": [
+          30670.980443888122,
+          84510.46079583571
+        ]
+      },
+      "outer_group_unit": "leave_related_family_out",
+      "minimum_fitting_rows": 307,
+      "maximum_purged_rows": 0,
+      "uncertainty": "Project-cluster descriptive interval; shared source correlations and prior model selection are not corrected. Only two source domains exist."
+    },
+    "leave_source_out": {
+      "folds": 2,
+      "fixed": {
+        "rows": 441,
+        "row_mae": 269993.8663904347,
+        "baseline_mae": 288891.11350913206,
+        "improvement_pct": 6.541304399832304,
+        "macro_project_mae": 234234.1910990954,
+        "macro_project_baseline_mae": 264489.4607960605,
+        "groups": 10,
+        "groups_improved": 7,
+        "groups_worsened": 3,
+        "descriptive_group_gain_ci95": [
+          -19871.374122545047,
+          64891.84951604283
+        ]
+      },
+      "nested": {
+        "rows": 441,
+        "row_mae": 269993.8663904347,
+        "baseline_mae": 288891.11350913206,
+        "improvement_pct": 6.541304399832304,
+        "macro_project_mae": 234234.1910990954,
+        "macro_project_baseline_mae": 264489.4607960605,
+        "groups": 10,
+        "groups_improved": 7,
+        "groups_worsened": 3,
+        "descriptive_group_gain_ci95": [
+          -19871.374122545047,
+          64891.84951604283
+        ]
+      },
+      "outer_group_unit": "leave_source_out",
+      "minimum_fitting_rows": 175,
+      "maximum_purged_rows": 0,
+      "uncertainty": "Project-cluster descriptive interval; shared source correlations and prior model selection are not corrected. Only two source domains exist."
+    },
+    "purged_leave_project_out": {
+      "folds": 10,
+      "fixed": {
+        "rows": 441,
+        "row_mae": 243874.1704846749,
+        "baseline_mae": 291710.68772192154,
+        "improvement_pct": 16.398616591945945,
+        "macro_project_mae": 203982.63232505726,
+        "macro_project_baseline_mae": 258390.19372067522,
+        "groups": 10,
+        "groups_improved": 8,
+        "groups_worsened": 2,
+        "descriptive_group_gain_ci95": [
+          24032.21671396315,
+          87619.15768189753
+        ]
+      },
+      "nested": {
+        "rows": 441,
+        "row_mae": 243874.1704846749,
+        "baseline_mae": 291710.68772192154,
+        "improvement_pct": 16.398616591945945,
+        "macro_project_mae": 203982.63232505726,
+        "macro_project_baseline_mae": 258390.19372067522,
+        "groups": 10,
+        "groups_improved": 8,
+        "groups_worsened": 2,
+        "descriptive_group_gain_ci95": [
+          24032.21671396315,
+          87619.15768189753
+        ]
+      },
+      "outer_group_unit": "purged_leave_project_out",
+      "minimum_fitting_rows": 273,
+      "maximum_purged_rows": 88,
+      "uncertainty": "Project-cluster descriptive interval; shared source correlations and prior model selection are not corrected. Only two source domains exist."
+    }
+  },
+  "sensitivity": {
+    "leave_one_project_out": {
+      "per_fold": [
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 11735.850028041414,
+          "median_absolute_change_pct": 0.11888288444044104,
+          "p95_absolute_change_pct": 0.26211690169430973,
+          "max_absolute_change_pct": 0.5063934178096252,
+          "mean_prediction_ntd": 8904906.442848874,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 13423.169934999869,
+          "median_absolute_change_pct": 0.1273850527009346,
+          "p95_absolute_change_pct": 0.3035315269897021,
+          "max_absolute_change_pct": 0.48304346834904255,
+          "mean_prediction_ntd": 8904201.075439231,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 5354.179016360131,
+          "median_absolute_change_pct": 0.04650448764633719,
+          "p95_absolute_change_pct": 0.12101797881718557,
+          "max_absolute_change_pct": 0.18759559391081648,
+          "mean_prediction_ntd": 8908773.604539305,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 3281.938127227762,
+          "median_absolute_change_pct": 0.028718397096361148,
+          "p95_absolute_change_pct": 0.07617976563729645,
+          "max_absolute_change_pct": 0.08359783554126032,
+          "mean_prediction_ntd": 8915022.801344482,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 81193.38892682244,
+          "median_absolute_change_pct": 0.5335259558374994,
+          "p95_absolute_change_pct": 5.01903795267066,
+          "max_absolute_change_pct": 5.601823065808409,
+          "mean_prediction_ntd": 8892451.138027161,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 66890.54066445486,
+          "median_absolute_change_pct": 0.7273231491993826,
+          "p95_absolute_change_pct": 1.4456847003623707,
+          "max_absolute_change_pct": 2.4429722395482245,
+          "mean_prediction_ntd": 8945882.18037597,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 23617.414211997064,
+          "median_absolute_change_pct": 0.24654250991781868,
+          "p95_absolute_change_pct": 0.5274290807592317,
+          "max_absolute_change_pct": 0.8472820416664972,
+          "mean_prediction_ntd": 8904858.500778435,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 85233.99703898843,
+          "median_absolute_change_pct": 0.7658430802119587,
+          "p95_absolute_change_pct": 1.942525694453019,
+          "max_absolute_change_pct": 3.0316574769556404,
+          "mean_prediction_ntd": 8961231.008856962,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 14845.781641722035,
+          "median_absolute_change_pct": 0.17242748202466185,
+          "p95_absolute_change_pct": 0.42422825345224235,
+          "max_absolute_change_pct": 0.6117107388935672,
+          "mean_prediction_ntd": 8917451.557011805,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 5716.834179846351,
+          "median_absolute_change_pct": 0.058765194490362216,
+          "p95_absolute_change_pct": 0.1617038548401417,
+          "max_absolute_change_pct": 0.22621498629269432,
+          "mean_prediction_ntd": 8915461.373987721,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        }
+      ],
+      "across_fold_p95_range_pct": 5.587839139975227
+    },
+    "exclude_query_own_project": {
+      "rows": 1408,
+      "mean_absolute_change_ntd": 34843.688745101754,
+      "median_absolute_change_pct": 0.16407655728485349,
+      "p95_absolute_change_pct": 1.8014173572133605,
+      "max_absolute_change_pct": 5.601823065808409,
+      "mean_prediction_ntd": 8917373.722287921,
+      "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+    },
+    "leave_related_family_out": {
+      "per_fold": [
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 11735.850028041414,
+          "median_absolute_change_pct": 0.11888288444044104,
+          "p95_absolute_change_pct": 0.26211690169430973,
+          "max_absolute_change_pct": 0.5063934178096252,
+          "mean_prediction_ntd": 8904906.442848874,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 16452.879574013336,
+          "median_absolute_change_pct": 0.18064353523425947,
+          "p95_absolute_change_pct": 0.3633773475085089,
+          "max_absolute_change_pct": 0.6101183241723263,
+          "mean_prediction_ntd": 8903867.707285542,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 81193.38892682244,
+          "median_absolute_change_pct": 0.5335259558374994,
+          "p95_absolute_change_pct": 5.01903795267066,
+          "max_absolute_change_pct": 5.601823065808409,
+          "mean_prediction_ntd": 8892451.138027161,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 66890.54066445486,
+          "median_absolute_change_pct": 0.7273231491993826,
+          "p95_absolute_change_pct": 1.4456847003623707,
+          "max_absolute_change_pct": 2.4429722395482245,
+          "mean_prediction_ntd": 8945882.18037597,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 23617.414211997064,
+          "median_absolute_change_pct": 0.24654250991781868,
+          "p95_absolute_change_pct": 0.5274290807592317,
+          "max_absolute_change_pct": 0.8472820416664972,
+          "mean_prediction_ntd": 8904858.500778435,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 85233.99703898843,
+          "median_absolute_change_pct": 0.7658430802119587,
+          "p95_absolute_change_pct": 1.942525694453019,
+          "max_absolute_change_pct": 3.0316574769556404,
+          "mean_prediction_ntd": 8961231.008856962,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 14845.781641722035,
+          "median_absolute_change_pct": 0.17242748202466185,
+          "p95_absolute_change_pct": 0.42422825345224235,
+          "max_absolute_change_pct": 0.6117107388935672,
+          "mean_prediction_ntd": 8917451.557011805,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 5716.834179846351,
+          "median_absolute_change_pct": 0.058765194490362216,
+          "p95_absolute_change_pct": 0.1617038548401417,
+          "max_absolute_change_pct": 0.22621498629269432,
+          "mean_prediction_ntd": 8915461.373987721,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        }
+      ],
+      "across_fold_p95_range_pct": 5.587839139975227
+    },
+    "leave_source_out": {
+      "per_fold": [
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 112017.26082793936,
+          "median_absolute_change_pct": 0.8645348538094899,
+          "p95_absolute_change_pct": 2.047372621728427,
+          "max_absolute_change_pct": 11.2473322637064,
+          "mean_prediction_ntd": 8934551.51009165,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 197183.6230589057,
+          "median_absolute_change_pct": 1.4365398620064918,
+          "p95_absolute_change_pct": 4.240727469313111,
+          "max_absolute_change_pct": 6.784413083242669,
+          "mean_prediction_ntd": 8783434.923910834,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        }
+      ],
+      "across_fold_p95_range_pct": 6.189474970736447
+    },
+    "purged_leave_project_out": {
+      "per_fold": [
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 11171.073934209568,
+          "median_absolute_change_pct": 0.10900531264609326,
+          "p95_absolute_change_pct": 0.25613658969496633,
+          "max_absolute_change_pct": 0.5247331315717974,
+          "mean_prediction_ntd": 8905767.14451274,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 12747.023888443866,
+          "median_absolute_change_pct": 0.12675600336480297,
+          "p95_absolute_change_pct": 0.29189786624733477,
+          "max_absolute_change_pct": 0.4504287405308949,
+          "mean_prediction_ntd": 8904476.247107552,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 6169.079412965953,
+          "median_absolute_change_pct": 0.05398214878907792,
+          "p95_absolute_change_pct": 0.14319557702162644,
+          "max_absolute_change_pct": 0.1571393689379752,
+          "mean_prediction_ntd": 8917497.549071135,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 3281.938127225352,
+          "median_absolute_change_pct": 0.02871839709632784,
+          "p95_absolute_change_pct": 0.07617976563725204,
+          "max_absolute_change_pct": 0.08359783554121591,
+          "mean_prediction_ntd": 8915022.80134448,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 82196.58567920372,
+          "median_absolute_change_pct": 0.5187908640655103,
+          "p95_absolute_change_pct": 4.883741778394724,
+          "max_absolute_change_pct": 5.683123539224377,
+          "mean_prediction_ntd": 8894683.784418788,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 82615.7216533268,
+          "median_absolute_change_pct": 0.9299761622715952,
+          "p95_absolute_change_pct": 1.765682510674169,
+          "max_absolute_change_pct": 3.068317407451915,
+          "mean_prediction_ntd": 8952782.434794845,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 28041.51864124627,
+          "median_absolute_change_pct": 0.3166375431911783,
+          "p95_absolute_change_pct": 0.6314007676021224,
+          "max_absolute_change_pct": 1.0264587740653752,
+          "mean_prediction_ntd": 8923963.05780053,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 80348.96421839834,
+          "median_absolute_change_pct": 0.9072266871234413,
+          "p95_absolute_change_pct": 1.733696963455504,
+          "max_absolute_change_pct": 3.0683174074518593,
+          "mean_prediction_ntd": 8941438.710154282,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 20239.16073849101,
+          "median_absolute_change_pct": 0.2178917217057541,
+          "p95_absolute_change_pct": 0.5552151018608275,
+          "max_absolute_change_pct": 0.7514916481790479,
+          "mean_prediction_ntd": 8924623.37483077,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        },
+        {
+          "rows": 1408,
+          "mean_absolute_change_ntd": 5716.834179843911,
+          "median_absolute_change_pct": 0.058765194490462136,
+          "p95_absolute_change_pct": 0.1617038548400895,
+          "max_absolute_change_pct": 0.2262149862925833,
+          "mean_prediction_ntd": 8915461.373987723,
+          "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+        }
+      ],
+      "across_fold_p95_range_pct": 4.9943683446029
+    },
+    "exclude_query_similar_features": {
+      "training_rows": 137,
+      "removed_rows": 304,
+      "rows": 1408,
+      "mean_absolute_change_ntd": 71924.85742374607,
+      "median_absolute_change_pct": 0.6637973383647688,
+      "p95_absolute_change_pct": 2.4090824465489544,
+      "max_absolute_change_pct": 3.4986981135987416,
+      "mean_prediction_ntd": 8881343.034006534,
+      "caution": "Prediction sensitivity only, not accuracy: no test prices were evaluated."
+    }
+  },
+  "support": {
+    "training_projects": 10,
+    "query_projects": 10,
+    "query_project_overlap_with_training": 1.0,
+    "query_rows_near_training": 472,
+    "query_rows_physically_identical": 111,
+    "query_rows_outside_any_feature_range": 26,
+    "train_net_area_range": [
+      83.41,
+      202.37
+    ],
+    "query_net_area_range": [
+      83.41,
+      204.89
+    ],
+    "all_sources_same_policy_region": "Taoyuan airport relocation scheme; no independent other-city policy domain"
+  },
+  "negative_control": {
+    "repeats": 20,
+    "shuffled_unit_price_oof_mae": [
+      286132.2660138151,
+      292594.08121629845,
+      309115.9281352119,
+      309794.9702073893,
+      299242.75156646385,
+      297714.5557354079,
+      287349.29349596216,
+      299157.74653839105,
+      292271.19614180445,
+      279821.53106909245,
+      283822.7450380961,
+      309597.43180264626,
+      292008.87152783247,
+      278442.74528580706,
+      294509.951117866,
+      289130.53951648483,
+      288209.5071448788,
+      280370.199372625,
+      282942.4875883385,
+      287217.67004721717
+    ],
+    "median_mae": 290569.70552215865,
+    "min_mae": 278442.74528580706,
+    "max_mae": 309794.9702073893,
+    "interpretation": "Negative control, not a formal permutation p-value; unit prices are not exchangeable across policy projects.",
+    "observed_fixed_oof_mae": 243591.59611080805,
+    "shuffles_worse_than_observed": 20
+  },
+  "parking": {
+    "rows": 2090,
+    "projects": 10,
+    "leave_project_out_offer_mae": 92392.34449760766,
+    "folds": [
+      {
+        "project": "桃園航空城A11基地",
+        "heldout_rows": 107,
+        "learned_other_project_median": 950000.0,
+        "offer_mae": 81308.41121495327
+      },
+      {
+        "project": "桃園航空城A18-1基地",
+        "heldout_rows": 226,
+        "learned_other_project_median": 950000.0,
+        "offer_mae": 75663.7168141593
+      },
+      {
+        "project": "桃園航空城A18-2基地",
+        "heldout_rows": 112,
+        "learned_other_project_median": 950000.0,
+        "offer_mae": 81250.0
+      },
+      {
+        "project": "桃園航空城A18-3基地",
+        "heldout_rows": 166,
+        "learned_other_project_median": 950000.0,
+        "offer_mae": 78313.2530120482
+      },
+      {
+        "project": "桃園航空城G17基地",
+        "heldout_rows": 226,
+        "learned_other_project_median": 950000.0,
+        "offer_mae": 87610.61946902655
+      },
+      {
+        "project": "桃園航空城機場園區街廓1基地",
+        "heldout_rows": 266,
+        "learned_other_project_median": 950000.0,
+        "offer_mae": 99248.12030075188
+      },
+      {
+        "project": "桃園航空城機場園區街廓2基地",
+        "heldout_rows": 232,
+        "learned_other_project_median": 950000.0,
+        "offer_mae": 92672.41379310345
+      },
+      {
+        "project": "桃園航空城機場園區街廓3基地",
+        "heldout_rows": 356,
+        "learned_other_project_median": 950000.0,
+        "offer_mae": 98595.50561797753
+      },
+      {
+        "project": "桃園航空城機場園區街廓5基地",
+        "heldout_rows": 172,
+        "learned_other_project_median": 950000.0,
+        "offer_mae": 95930.23255813954
+      },
+      {
+        "project": "桃園航空城機場園區街廓6基地",
+        "heldout_rows": 227,
+        "learned_other_project_median": 950000.0,
+        "offer_mae": 114096.91629955947
+      }
+    ],
+    "same_query_parking_identity_screening": false,
+    "limitation": "Inventory-wide constant model; individual test parking spaces are not matched or assigned an external price. This is offer validation, not sale validation."
+  },
+  "physical_checks": {
+    "grid_points": 600,
+    "positive_predictions": true,
+    "area_plus_0_1sqm_increases_total_price": true,
+    "no_identity_features": true,
+    "accuracy_claim": false
+  },
+  "learned_formula": {
+    "unit_price_intercept_ntd_per_sqm": 57248.87870726499,
+    "coefficients_for_original_six_features": {
+      "net_area_100sqm": -1868.1947728354226,
+      "floor_10": -2957.9198185495115,
+      "floor_10_squared": 6126.12946758722,
+      "first_floor": 6091.480827838935,
+      "second_floor": 1316.6550035839807,
+      "terrace": 5438.920890208979
+    },
+    "expression": "house_land_prediction = net_area_sqm * (intercept + sum(coefficient * physical_feature))"
+  },
+  "protected_files_unchanged": 35,
+  "deployment_model_changed": false,
+  "new_submission_created": false,
+  "limitations": [
+    "Post-selection reanalysis, not a pristine independent dataset.",
+    "Only official house/land offers are evaluated; actual relocation sales remain unvalidated.",
+    "All 10 bases belong to the same regional policy scheme; no claim of generalization to every relocation program.",
+    "Project intervals do not account for common-source correlation or all prior model searches."
+  ]
+}

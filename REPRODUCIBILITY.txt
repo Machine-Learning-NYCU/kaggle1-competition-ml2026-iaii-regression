@@ -1,0 +1,86 @@
+重現範圍與必要輸入
+==================
+
+本包把「可在乾淨 checkout 完成的驗證」與「需要原始資料／研究快取的完整重現」明確分開。
+程式副本位於 project/，原始工作目錄為 /home/114/jim5528/ml2026。
+每個原程式以自身目錄當 ROOT，因此資料／模型應放在 project/data 與 project/artifacts。
+
+1. 不需競賽資料的檢查
+
+  python3 scripts/verify_package.py
+  cd project
+  <Python 3.13 environment>/bin/python -m pytest -q
+
+verify_package.py 以標準函式庫核對程式及證據來源雜湊、兩份 CSV 的格式／ID／價格、公開分數比較、年度改善與安置住宅測試表。
+pytest 的 46 項合成測試覆蓋日期解析、時間標籤隔離、類別編碼、分組、選模門檻、安置戶排除與無查表推論。
+這些檢查不是重新測量 test MAE；test 真實價格並未提供。
+
+2. 環境
+
+原研究使用 Python 3.13、CatBoost 1.2.10、LightGBM 4.7.0、scikit-learn 1.9.1。
+完整固定相依套件版本見 project/requirements.lock.txt。
+CatBoost 主訓練設定使用 NVIDIA GPU；CPU 訓練及不同 GPU 重訓不保證位元組相同。
+保存模型重新推論已驗證能重現最終 CSV；沒有把 GPU 重訓的 bitwise reproducibility 當成保證。
+
+3. 原始資料
+
+需從已授權競賽來源取得並放入 project/data/：
+  train-v2.xlsx
+  valid-v2.xlsx
+  test-reindex-test-v2.2.xlsx
+  test-reindex-test-sample-submission-v2.csv
+
+以 python prepare.py 建立 train/valid/test.parquet。
+原檔與清理紀錄的雜湊見 evidence/data_audit.json。
+原始競賽資料、逐筆驗證目標與中間模型快取未放入這個 Git 包。
+
+4. 原模型推論／診斷重現
+
+需先還原原研究的完整 artifacts/ 與必要歷史 CSV 至 project/，其預期雜湊由下列檔案列出：
+  evidence/geography_v1/config.json
+  evidence/geography_v1/audit_verification.json
+  evidence/overfitting_v7/input_inventory.json
+  evidence/policy_generalization_v1/protected_inventory.json
+
+還原後在 project/ 執行：
+  OMP_NUM_THREADS=12 OPENBLAS_NUM_THREADS=1 python verify_geography.py
+  OMP_NUM_THREADS=8 OPENBLAS_NUM_THREADS=1 python audit_overfitting_v7.py
+  OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 python audit_policy_generalization.py
+
+verify_geography.py 從原始 test 重建特徵、載入模型並核對 v7，沒有重新 fitting 房價模型。
+audit_policy_generalization.py 會另外 fitting 診斷模型，但不替換 v6/v7 的保存模型或 CSV。
+部分舊 joblib 使用 __main__.ProjectIdentityMasker，載入時需先匯入原 train_generalization.ProjectIdentityMasker；audit_overfitting_v7.py 已處理。
+
+5. 訓練來源與依賴順序
+
+本專案保留逐輪凍結的研究程式，而不是宣稱有未經驗證的一鍵全量訓練命令：
+  prepare.py → train.py / finalize_mae.py
+  train_robust.py / select_robust.py
+  train_spatial.py / train_hedonic.py / select_hedonic.py
+  train_transfer.py / train_shift.py / select_shift.py
+  policy_tables.py / train_policy_learned.py
+  train_generalization.py
+  geography_features.py / train_geography.py
+
+各輪需要前輪的特徵、凍結迭代數、選擇紀錄與模型；不能直接在沒有快取的目錄執行最末一輪。
+各程式 --help 與 evidence/ 中的 config / selection 提供實際設定。
+若換資料來源或改核心程式，應另開實驗目錄，不修改原凍結設定以通過雜湊檢查。
+
+6. 外部非價格地理資料
+
+來源下載網址、檔案雜湊及資料版本記錄在 evidence/geography_v1/sources/。
+原訓練使用 2020 A2 事故地址與座標建立固定位置參考，2020 A1 只作定位誤差檢查。
+資料不包含房價。CSV 宣告提供日期為 2021-07-01，當年的原始位元組未獨立認證。
+
+7. 政策資料
+
+公開手冊網址及原始 PDF 雜湊見 evidence/policy_v1/sources/。
+正式政策分支訓練必須先排除 test 同戶，僅允許保存的 441 戶其他住宅標籤。
+不得為驗證 test 預測而讀回被排除的 1,404 戶報價；泛化測試只評估安全的其他戶。
+v5 的查表程式保留作歷史追溯，但不是正式候選，也不是建議執行的提交流程。
+
+8. 已完成與未完成
+
+已完成：原研究全量推論重現、過擬合診斷、政策分組測試；本包數值核對與 46 項合成測試。
+未宣稱完成：用本輕量 Git 包從零重訓 4.5 GB 的全部研究快取、private 評分、官方規則審核。
+目標 repo 與參考 report 版型的確認狀態另見 publication_status.json。

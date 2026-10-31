@@ -1,0 +1,10 @@
+{
+  "status": "completed_rejected",
+  "tests_passed": 37,
+  "test_warning": "Existing pandas Categorical compatibility warning in test_pipeline.py; no failures.",
+  "saved_models_verified": 8,
+  "v7_created": false,
+  "second_seed_and_confirmation_run": false,
+  "current_submission": "submission1017_v6.csv",
+  "public_scores_used_for_this_selection": false
+}

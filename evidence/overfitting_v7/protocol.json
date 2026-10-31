@@ -1,0 +1,33 @@
+{
+  "purpose": "Post-selection overfitting diagnosis only",
+  "folds": [
+    "stress2021",
+    "development",
+    "confirmation"
+  ],
+  "seeds": [
+    20261017,
+    20261018
+  ],
+  "checkpoints": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000
+  ],
+  "training_sample_rows": 50000,
+  "sample_seed": 20261018,
+  "bootstrap_replicates": 2000,
+  "model_refitting": false,
+  "parameters_or_submission_changed": false,
+  "public_score_tuning": false,
+  "independent_new_test": false,
+  "note": "All checkpoints/subgroups are diagnostic; no checkpoint or routing selection.",
+  "source_sha256": "e9c62603c3bcb41e1de691690723db2ad87585aaf317afed61d605f507898a94",
+  "references": [
+    "https://catboost.ai/docs/en/concepts/faq",
+    "https://www.jmlr.org/papers/v11/cawley10a.html"
+  ]
+}

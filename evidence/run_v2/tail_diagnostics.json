@@ -1,0 +1,6 @@
+{
+  "top_2_rows_share_of_squared_error": 0.9053569762078246,
+  "transactions_above_100m_ntd": 118,
+  "rows": 44371,
+  "note": "Diagnostics only; all rows remain in the reported primary metrics."
+}

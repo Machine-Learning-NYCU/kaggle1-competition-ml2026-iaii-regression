@@ -1,0 +1,6 @@
+{
+  "fixed_before_evaluation": true,
+  "comparison": "CatBoost log-total, same rounds; with versus without causal market features",
+  "iterations": 1797,
+  "changes_main_model": false
+}

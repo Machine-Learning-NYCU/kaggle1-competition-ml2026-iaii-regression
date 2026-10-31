@@ -1,0 +1,29 @@
+{
+  "conclusion": "No observed aggregate late-training overfit within 500-3000 trees; generalization gap, subgroup instability, and selection-bias risk remain.",
+  "scope": "Frozen v7 geography increment plus inherited learned policy branch; not a certificate for all historical submodels.",
+  "checkpoint_results": [
+    {
+      "fold": "stress2021",
+      "cold_mae_monotonically_decreases": true,
+      "cold_mae_500": 2476330.2422266155,
+      "cold_mae_3000": 2395584.4443566166
+    },
+    {
+      "fold": "development",
+      "cold_mae_monotonically_decreases": true,
+      "cold_mae_500": 1679962.7251431467,
+      "cold_mae_3000": 1628216.3472449172
+    },
+    {
+      "fold": "confirmation",
+      "cold_mae_monotonically_decreases": true,
+      "cold_mae_500": 1926959.4776057997,
+      "cold_mae_3000": 1856278.9253172595
+    }
+  ],
+  "all_three_years_improve": true,
+  "historical_windows_reused": true,
+  "private_test_performance_unknown": true,
+  "current_action": "Keep frozen v7; diagnostics do not justify retrospective per-city routing or blend tuning.",
+  "next_validation": "Freeze a future candidate before a genuinely unexamined time/project-block holdout; tune only inside earlier folds. Reused-window tests cannot become pristine again."
+}

@@ -1,0 +1,7 @@
+{
+  "change": "Replace np.isin on object-string group arrays with pandas hashed membership; identical membership, avoids quadratic scan. No model fitting, features, targets, splits, rounds, or weights changed.",
+  "reused_models_from_original_config": true,
+  "original_train_sha256": "8c808c71238a9790abd5ff8856eed8ca286662d992773cc4627d1c1992139b2c",
+  "current_train_sha256": "3570fdb22a3763d2120b748ef440fbe3449247ce2ee01d3ea378f2a00746bf22",
+  "source_original": "source/train.py"
+}

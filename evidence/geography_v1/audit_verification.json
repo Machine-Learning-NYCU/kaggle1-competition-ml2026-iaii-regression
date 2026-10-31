@@ -1,0 +1,137 @@
+{
+  "source_and_input_hashes_unchanged": true,
+  "source_provision_dates": [
+    {
+      "file": "accident_2020_a1.csv",
+      "declared_provision_date": "2021-07-01"
+    },
+    {
+      "file": "accident_2020_a2_h1.csv",
+      "declared_provision_date": "2021-07-01"
+    },
+    {
+      "file": "accident_2020_a2_h2.csv",
+      "declared_provision_date": "2021-07-01"
+    }
+  ],
+  "geography_ignores_target_id_project_and_unit": true,
+  "geography_raw_test_sample_reproduced": true,
+  "model_checks": [
+    {
+      "fold": "development",
+      "model": "cat_control_20261018.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "b4ebb6220985895be5ba9d28493d733c8abebe0299e63e61db1eebea41f1f8e4"
+    },
+    {
+      "fold": "development",
+      "model": "cat_geo_20261017.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "561329b23562bf052aeff0d32cf5411ab0d40b0cae82320c5d998c8865875c84"
+    },
+    {
+      "fold": "development",
+      "model": "cat_geo_20261018.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "ff12c516c4337f0d0511c1778d3b902635356f5dc585e68cb8c7f51935f24394"
+    },
+    {
+      "fold": "development",
+      "model": "lgb_control_20261017.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "6b09a9eebda8d0c6c5126e196c1c9babe6336e5d3926a8c51e37a804535ce6b8"
+    },
+    {
+      "fold": "development",
+      "model": "lgb_geo_20261017.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "865659525127b4d239a99ce01dbeb7afbebc804f2036888c1aa633d9559dd411"
+    },
+    {
+      "fold": "stress2021",
+      "model": "cat_control_20261018.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "c9e233fa551efe50ac23c82244b468beb3f69882f979e00d6d802dea4372b8d0"
+    },
+    {
+      "fold": "stress2021",
+      "model": "cat_geo_20261017.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "0cc7980ce571a0027904f9c08f290f10a0f3a54ffb33eb9c106a5d3e1f894856"
+    },
+    {
+      "fold": "stress2021",
+      "model": "cat_geo_20261018.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "ce00db464f3d1fcc4b7bbce36ac614f8ca0ca673dc85bc25f5c5817fdfa78a27"
+    },
+    {
+      "fold": "stress2021",
+      "model": "lgb_control_20261017.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "64ad09a0181585cc2e996b5a8a82f2e6ccf13b862e833bb23a41a6c42c7a85cb"
+    },
+    {
+      "fold": "stress2021",
+      "model": "lgb_geo_20261017.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "f23933fd0e9c61125648cf5f4a27b22aba86769ed927a47fae63f911880183fa"
+    },
+    {
+      "fold": "confirmation",
+      "model": "cat_control_20261017.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "0dc2f89a8a81e0a99abb725a668d0ea128c08be893f517411236a5f93e9aaa84"
+    },
+    {
+      "fold": "confirmation",
+      "model": "cat_control_20261018.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "d2ead9004f7ae00a9cc4848d8daca17cef4ffda09f51db3ef7ddafbd56f02e7c"
+    },
+    {
+      "fold": "confirmation",
+      "model": "cat_geo_20261017.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "625928fe529c7d30f04df022b9bfe566e73935f760a9f8d04d5b7e1a0c619d59"
+    },
+    {
+      "fold": "confirmation",
+      "model": "cat_geo_20261018.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "45df1178b7ef05921edb48e50d55b86120a2332cb677cdfbd1e1ada694b21df6"
+    },
+    {
+      "fold": "final",
+      "model": "cat_geo_20261017.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "fb5b25693bd940ad55b04cc893f87011f18aaee427bd365abea8434a4a10016f"
+    },
+    {
+      "fold": "final",
+      "model": "cat_geo_20261018.joblib",
+      "sample_rows": 512,
+      "max_difference": 0.0,
+      "model_sha256": "b800a66e1dce7bec3f17607d78c2c46ffa243df0ddd5a2fcd8525f7c4c6c8432"
+    }
+  ],
+  "strict_cold_project_groups_disjoint": true,
+  "selection_recomputed_identically": true,
+  "v7_reproduced": true,
+  "fitting_performed": false
+}

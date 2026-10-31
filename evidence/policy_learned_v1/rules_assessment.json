@@ -1,0 +1,20 @@
+{
+  "scope": "User-defined method requirement, not certification under unseen official rules",
+  "user_requirement": "External data allowed; learned general prediction, no query-unit price lookup or per-ID tuning",
+  "v5_meets_user_requirement": false,
+  "v6_meets_user_requirement": true,
+  "v6_training_house_rows": 441,
+  "excluded_query_unit_labels": 1404,
+  "note_discount": "Deterministic parsing of provided input notes; no external lookup; not a learned coefficient",
+  "official_rules_verified": false,
+  "unresolved_official_requirements": [
+    "External price-data eligibility",
+    "Source publication cutoff"
+  ],
+  "train_cutoff": "2024-08-10",
+  "latest_offer_publication": "2024-08-29",
+  "same_unit_offers_seen_in_prior_lookup_experiment": true,
+  "scores_do_not_establish_rule_compliance": true,
+  "recommendation": "Use v6 as the baseline under the user requirement: learn from external features and other-unit samples; never recover test answers by direct or indirect unit matching.",
+  "user_clarification_record": "artifacts/external_data_policy.json"
+}

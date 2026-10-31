@@ -1,0 +1,15 @@
+{
+  "rows": 47073,
+  "columns": [
+    "編號",
+    "總價元"
+  ],
+  "ids_unique": true,
+  "model_reproduction": true,
+  "schema_ids_verified_by_export": true,
+  "positive_integer_prices": true,
+  "sha256": "af2801ca7212ce570fac62199b47de88a263f16afe368c95a6357731d8539b66",
+  "submitted": false,
+  "previous_reported_public_mae": 2393304.6257,
+  "new_public_mae": null
+}

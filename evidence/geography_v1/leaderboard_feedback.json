@@ -1,0 +1,46 @@
+{
+  "reported_by": "user",
+  "reported_date_local": "2026-10-18",
+  "submitted_filename": "submission1017_v7.csv",
+  "source_sha256": "c6984c5d86f20e794c774d65c52bdf46e4c0b2c7012ad57ff33f43982cc8eda7",
+  "source_match": "Filename matches verified local artifact; uploaded bytes not independently available",
+  "score_mae": 1716414.5323,
+  "previous_score_mae": 1745458.0575,
+  "improvement_ntd": 29043.5252,
+  "improvement_fraction": 0.016639486165367225,
+  "method": "Frozen 50% blend of v6 and two geography CatBoost seeds on strictly unseen non-relocation projects; new branch learns from competition train with non-price external road-location features; inherits learned v6 policy branch",
+  "best_among_user_reported_versions": true,
+  "meets_user_no_answer_lookup_criterion": true,
+  "official_competition_rules_verified": false,
+  "feedback_used_for": "Record public score and confirm current candidate choice; no model, blend weight, or per-row correction fitted to this feedback",
+  "evidence": {
+    "source_and_input_and_submission_hashes_verified": 28,
+    "pre_submission_records_sha256": {
+      "artifacts/geography_v1/config.json": "5c4bcb678a44b4eb93af8816f6cb83ad097d76ce4b798ef54a5aa7002db5c9a4",
+      "artifacts/geography_v1/selection.json": "0b2e8aea5c8e9603b50ca2473660e6404c2d42fcf35960a5494f0566abd251c1",
+      "artifacts/geography_v1/seed_check.json": "a627ed191a7e90fbfd47f12c0bcaaedabe29f29a27512c805a9ea834fe7c8130",
+      "artifacts/geography_v1/confirmation.json": "850edb04e47902edf97fe665422f76990043dca44d044d8b61daaf158150458b",
+      "artifacts/geography_v1/verification.json": "b521d972d5a4bb9b28b8002d3c196f6d02870b0ed003fc71a969b8056676952c",
+      "artifacts/geography_v1/completion.json": "eab67a64b7c6ffe6266b70371470ce3a976691f145aa25ad287e6d14eb660be2",
+      "artifacts/geography_v1/RESULTS.md": "10923e8457d63254fb5ff1e194ce2b66f48dedee08cf373a7213d213dd203bfe",
+      "artifacts/geography_v1/reproduction.json": "bfb023e0b062e5ca3d8d618f6a552179b873f7170596f531afe9ab33defd5537",
+      "artifacts/geography_v1/audit_verification.json": "ca12b336f9c1384099c284d5bc92a858740c59f8c965d4d7c84268f253b6e937",
+      "submission1017_v7.csv": "c6984c5d86f20e794c774d65c52bdf46e4c0b2c7012ad57ff33f43982cc8eda7"
+    },
+    "historical_all_mae_improvement_percent": [
+      1.99229671699207,
+      1.72147220324083,
+      2.85212466601945
+    ],
+    "two_seed_gate_passed": true,
+    "frozen_confirmation_gate_passed": true,
+    "previously_completed_tests_passed": 43,
+    "full_csv_reproduction_previously_passed": true
+  },
+  "limitations": [
+    "Best among implemented, validated and user-reported candidates; not proof of global optimality.",
+    "Private leaderboard and test labels are unavailable; public ranking may not transfer.",
+    "Historical validation windows were reused; uncertainty intervals do not adjust for prior model search.",
+    "Public scores are user-reported, not independently fetched from the competition."
+  ]
+}

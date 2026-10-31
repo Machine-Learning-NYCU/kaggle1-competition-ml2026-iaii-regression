@@ -1,0 +1,17 @@
+{
+  "prepared_date": "2026-10-31",
+  "reference_repository": "Deep-Learning-NYCU/kaggle-3-reasoning-llm-sft-grpo-jimhuang0731",
+  "reference_format_verified": false,
+  "reference_access_result": "404 via authenticated connector and unauthenticated API",
+  "destination_organization": "Machine-Learning-NYCU",
+  "destination_repository": "Machine-Learning-NYCU/kaggle1-competition-ml2026-iaii-regression",
+  "student_id": "314580075",
+  "student_name": "黃駿甯",
+  "identity_source": "Authenticated GitHub profile display name: 314580075黃駿甯",
+  "destination_access": {"pull": true, "push": false},
+  "connected_github_login": "jimhuang0731",
+  "requested_commit_email": "adogg5528@gmail.com",
+  "github_published": false,
+  "status": "Destination repository found; title updated with student ID. Local package ready; GitHub write access pending; reference template remains inaccessible.",
+  "scores_current_through": "2026-10-18 user reports; no private score available"
+}

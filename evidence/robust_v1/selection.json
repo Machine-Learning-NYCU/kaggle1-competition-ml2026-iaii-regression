@@ -1,0 +1,142 @@
+{
+  "models": [
+    "historical_experts_dev_calibration",
+    "cat_unit",
+    "cat_log",
+    "lgb_unit"
+  ],
+  "weights": {
+    "seen": [
+      0.5668225489439979,
+      0.0,
+      0.21171264580881696,
+      0.2214648052471851
+    ],
+    "unseen": [
+      0.24727950894426207,
+      0.1416880731755852,
+      0.48763153946807913,
+      0.12340087841207355
+    ]
+  },
+  "penalty": 0.02,
+  "calibration_source": "development: predict 2022-08-11 to 2023-08-10 from 2022-08-10",
+  "comparable_fraction": 0.0,
+  "validation_status": "Historical development; includes early-stopping period",
+  "confirmation_not_used_for_weights": true,
+  "source_sha256": {
+    "robust_features.py": "76f9bf5f5993cbe2ff51697adfb60210cec34ca7a888e01dff24fc5c496bd736",
+    "train_robust.py": "4d7b90cdb39beaa86b2e96de6fbf5cf6a74d484974a758c05b3f8fbab8a80298",
+    "comparable_sales.py": "527f92c65e058ef17054e7b466625a084c28493a742a19228f47f086f112560b",
+    "select_robust.py": "fb9ee3049b19d6945eddcd190b4635a4cf134ccf80e3f3acc7afe3c510b5fdab"
+  },
+  "inner_calibration_sha256": "48ffb51ae88dd87e77187fd552aed7edb1d294cb19c8860b5426f9666aee1840",
+  "trend_damping": 0.5,
+  "bounded_development_grid": [
+    {
+      "damping": 0.0,
+      "alpha": 0.0,
+      "mae": 1395600.6201415372
+    },
+    {
+      "damping": 0.0,
+      "alpha": 0.25,
+      "mae": 1387074.10706267
+    },
+    {
+      "damping": 0.0,
+      "alpha": 0.5,
+      "mae": 1384955.3550343737
+    },
+    {
+      "damping": 0.0,
+      "alpha": 0.75,
+      "mae": 1389862.813230513
+    },
+    {
+      "damping": 0.5,
+      "alpha": 0.0,
+      "mae": 1364196.9910274406
+    },
+    {
+      "damping": 0.5,
+      "alpha": 0.25,
+      "mae": 1364195.211869356
+    },
+    {
+      "damping": 0.5,
+      "alpha": 0.5,
+      "mae": 1373251.5806580402
+    },
+    {
+      "damping": 0.5,
+      "alpha": 0.75,
+      "mae": 1390723.0548162817
+    },
+    {
+      "damping": 1.0,
+      "alpha": 0.0,
+      "mae": 1388381.1788586995
+    },
+    {
+      "damping": 1.0,
+      "alpha": 0.25,
+      "mae": 1398827.481362184
+    },
+    {
+      "damping": 1.0,
+      "alpha": 0.5,
+      "mae": 1430986.1095265765
+    },
+    {
+      "damping": 1.0,
+      "alpha": 0.75,
+      "mae": 1478030.8071596122
+    }
+  ],
+  "simplicity_rule": "Within 0.5% of minimum development MAE, prefer lower comparable fraction.",
+  "development_metrics": {
+    "historical_experts_dev_calibration": {
+      "rmsle": 0.13643646007368887,
+      "rmse": 3688359.6783302003,
+      "mae": 1497055.3235587338,
+      "mape": 0.09218064119617472,
+      "within_10pct": 0.6719858374005729
+    },
+    "cat_unit": {
+      "rmsle": 0.1613230982960179,
+      "rmse": 7931944.028765382,
+      "mae": 1823286.2432980463,
+      "mape": 0.11875045606882433,
+      "within_10pct": 0.5390024710785458
+    },
+    "cat_log": {
+      "rmsle": 0.13465374150552537,
+      "rmse": 4061462.356778171,
+      "mae": 1616196.4253534758,
+      "mape": 0.10511290000729415,
+      "within_10pct": 0.5977305417931916
+    },
+    "lgb_unit": {
+      "rmsle": 0.15593640680491205,
+      "rmse": 6942444.414909286,
+      "mae": 1738037.4430929832,
+      "mape": 0.11049958007699048,
+      "within_10pct": 0.5710896104055765
+    },
+    "previous_mae": {
+      "rmsle": 0.13652770778085577,
+      "rmse": 3893054.779241433,
+      "mae": 1512872.6675837773,
+      "mape": 0.09311448170964645,
+      "within_10pct": 0.6674616736946927
+    },
+    "selected": {
+      "rmsle": 0.12102036721172116,
+      "rmse": 4047883.989182251,
+      "mae": 1364196.9910274406,
+      "mape": 0.08472700840851369,
+      "within_10pct": 0.6975817853235146
+    }
+  }
+}

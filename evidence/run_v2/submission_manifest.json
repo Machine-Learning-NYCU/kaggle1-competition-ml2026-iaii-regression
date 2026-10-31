@@ -1,0 +1,13 @@
+{
+  "rows": 47073,
+  "columns": [
+    "編號",
+    "總價元"
+  ],
+  "test_new_group_fraction": 0.6334841628959276,
+  "official_valid_used_for_training": false,
+  "files": {
+    "submission_rmsle.csv": "d030ecb6c3600c691e6f741ac3a306317923cc309252be0c780e6a267557a1d7",
+    "submission_rmse.csv": "7385c3270396a63a27478c449c333c56b4d76a28d1593b64c465b99cd0720b04"
+  }
+}

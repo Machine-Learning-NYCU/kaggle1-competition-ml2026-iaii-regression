@@ -1,0 +1,34 @@
+{
+  "accepted": true,
+  "metrics": {
+    "all": {
+      "rows": 133746,
+      "baseline_mae": 1440869.2793601044,
+      "candidate_mae": 1399773.8912383781,
+      "ratio": 0.9714787533398055
+    },
+    "cold": {
+      "rows": 76087,
+      "baseline_mae": 1928516.5451436208,
+      "candidate_mae": 1856278.9253172595,
+      "ratio": 0.9625423904149178
+    },
+    "cold_late": {
+      "rows": 63569,
+      "baseline_mae": 1973639.949660153,
+      "candidate_mae": 1900221.600061292,
+      "ratio": 0.9628005353197766
+    }
+  },
+  "cold_cluster_gain_95": [
+    36544.83993685232,
+    107178.78475339097
+  ],
+  "matching_control_cluster_gain_95": [
+    34361.458077344316,
+    101527.44575063568
+  ],
+  "history_reused": true,
+  "frozen_choice_unchanged": true,
+  "public_score_unknown": true
+}

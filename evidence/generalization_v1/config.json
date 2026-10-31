@@ -1,0 +1,65 @@
+{
+  "specs": {
+    "identity_log": {
+      "mask_fraction": 0.0,
+      "loss": "RMSE"
+    },
+    "masked_log": {
+      "mask_fraction": 0.35,
+      "loss": "RMSE"
+    },
+    "identity_l1": {
+      "mask_fraction": 0.0,
+      "loss": "MAE"
+    },
+    "masked_l1": {
+      "mask_fraction": 0.35,
+      "loss": "MAE"
+    }
+  },
+  "mask_columns": [
+    "project",
+    "canonical_project",
+    "project_building_type",
+    "address_base",
+    "tower",
+    "house_number",
+    "parcel_number"
+  ],
+  "iterations": 3000,
+  "depth": 8,
+  "learning_rate": 0.045,
+  "l2_leaf_reg": 10,
+  "primary_seed": 20261017,
+  "second_seed": 20261018,
+  "trend_damping": 0.5,
+  "blend_fractions": [
+    0.25,
+    0.5
+  ],
+  "new_branch": "strictly new canonical projects; seen and relocation predictions unchanged",
+  "selection": "Both years cold MAE improves >=0.5%; neither late-eight-month cold MAE worsens; prefer alpha=.25 within 0.5% of best worst-year ratio",
+  "seed_check": "Freeze choice before second seed; average seeds must pass same gates, each seed cold MAE must improve in each year; no runner-up on failure",
+  "confirmation": "No retuning; cold MAE improvement >=0.5%, late cold non-regression, group bootstrap improvement lower95>0",
+  "early_stopping": false,
+  "rounds_source": "Fixed before training; no new forecast labels used to tune rounds",
+  "history": "Historical forecast windows reused, not pristine independent tests",
+  "external_data_used_in_new_branch": false,
+  "public_scores_used_to_fit": false,
+  "source_sha256": {
+    "train_generalization.py": "1883521a00309ec287ff97409029919535d548d1557e4814d84ab5524ccae409",
+    "test_generalization.py": "e5ac10cfd4aa828a11d181fa62cbfc623ee20690a7a5b3e459ce02de8ce5ca67",
+    "train_shift.py": "af1710e04313beb405dd27318a7aee3a09e2d343e57065a4d4d6559ffc66907a",
+    "features.py": "59007e4cec3c7dcf2cf0e85d95e8e22c0a524db3633185fe453b33621d258e85",
+    "train_mae.py": "a30479a6734f23d215ae1fbf27d2c587e30b98938b5b00e310ba002ccab4d946"
+  },
+  "input_sha256": {
+    "submission1017_v6.csv": "53bde5d7fa8c97d95ab8897c905b38cf01e16cda6a6eea48f8605a5b848aadd6",
+    "artifacts/external_data_policy.json": "e01a608f085c4b25ad5d2153f80ce34eb500509864391e59fc7d03f9eb13e4aa",
+    "artifacts/policy_learned_v1/model.joblib": "19bba1759ad1341d2487a9299cc752ec580af5a2659f795b637e081dc2990f0e",
+    "artifacts/shift_v1/stress2021/data.joblib": "2d107a3eb3491cd44589b7327ef7de9f024ba665a08432f787791201985cc670",
+    "artifacts/shift_v1/development/data.joblib": "a085894f9c6b0a15b42b82029bf53dc1d262fe4ec1cf05227325636e73ff48fa",
+    "artifacts/shift_v1/confirmation/data.joblib": "8b48456f0372c6bd5b4d4602c55112d9284312057982ac74ee18875acb36cab5",
+    "artifacts/shift_v1/final/data.joblib": "a3dc3f1e011210e5886b5eb3a70cad8fa260b621ee819e690134107abc0d03d5"
+  }
+}

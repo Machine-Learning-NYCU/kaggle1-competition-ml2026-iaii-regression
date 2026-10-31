@@ -1,0 +1,82 @@
+{
+  "source_and_input_hashes_unchanged": true,
+  "fitting_and_cold_validation_project_keys_disjoint": true,
+  "frozen_selection_recomputed_identically": true,
+  "no_model_refitting": true,
+  "no_submission_changes": true,
+  "checks": [
+    {
+      "fold": "stress2021",
+      "name": "identity_log",
+      "sample_rows": 512,
+      "max_prediction_difference": 0.0,
+      "row_order_invariant": true,
+      "model_sha256": "176a4a94be8ed49b2829351aee92358ad5028ce20d29f064e9f586a7d8ca417e",
+      "predictions_sha256": "60fa4af7ee6d6bff4271006520dc522385d5b47f23ab0f5a24539cec8d11149f"
+    },
+    {
+      "fold": "stress2021",
+      "name": "masked_log",
+      "sample_rows": 512,
+      "max_prediction_difference": 0.0,
+      "row_order_invariant": true,
+      "model_sha256": "6aa083086a582ce21771b64aa60b597448db29bf26639a005d52ac3bc84aeb39",
+      "predictions_sha256": "c2d5e058821845a51509217985e463b96489ebe02c2954fc526c45158ea59810"
+    },
+    {
+      "fold": "stress2021",
+      "name": "identity_l1",
+      "sample_rows": 512,
+      "max_prediction_difference": 0.0,
+      "row_order_invariant": true,
+      "model_sha256": "1f1f474b1a17933a845781d5f8df97fac17df1936b8b8006a3768da74ae7380e",
+      "predictions_sha256": "b3b3911b99d2961f166fa832e3c4e959865b6bf32d4e027e446d59234223add7"
+    },
+    {
+      "fold": "stress2021",
+      "name": "masked_l1",
+      "sample_rows": 512,
+      "max_prediction_difference": 0.0,
+      "row_order_invariant": true,
+      "model_sha256": "c91ea8f9887e5bd5bfbc13aa34e025656536a527335e4d6810ab0b072d9b754d",
+      "predictions_sha256": "ce3149ca75ec41d5076f215b16831c424e8ff4e9879e31ed16641e82356cc289"
+    },
+    {
+      "fold": "development",
+      "name": "identity_log",
+      "sample_rows": 512,
+      "max_prediction_difference": 0.0,
+      "row_order_invariant": true,
+      "model_sha256": "9fc91b9630026d300ba20f58950300123beeffb9889371158e3b197c6e6e3100",
+      "predictions_sha256": "c3baff5506a234f525c850d6f526b17cd376ac1f8087300fa92c42fa3f378964"
+    },
+    {
+      "fold": "development",
+      "name": "masked_log",
+      "sample_rows": 512,
+      "max_prediction_difference": 0.0,
+      "row_order_invariant": true,
+      "model_sha256": "e556e8c8a57567d233099843d0a6a4877eaf9a0912bc42a1e6acbb163e318a5d",
+      "predictions_sha256": "230c3a707f8a2ce147613f9f830cc90a65267e4a69580a5715176fc296b96e90"
+    },
+    {
+      "fold": "development",
+      "name": "identity_l1",
+      "sample_rows": 512,
+      "max_prediction_difference": 0.0,
+      "row_order_invariant": true,
+      "model_sha256": "64b149eaa5a65f791bbfffef0b41ad7711c91874bae4493542907ca2155469d6",
+      "predictions_sha256": "1d045c9e0393c6d995bb449e21df88643e156f9de4a31f8c0015c9e8e822e7fa"
+    },
+    {
+      "fold": "development",
+      "name": "masked_l1",
+      "sample_rows": 512,
+      "max_prediction_difference": 0.0,
+      "row_order_invariant": true,
+      "model_sha256": "2cf4f8fd45ccd1e4094126bbbef961b5994f3b7b680675b73f11cd649e86f2c5",
+      "predictions_sha256": "e6b6685406813e65e36082df01b5ffc691204579ebceb50f22bf05be300229fd"
+    }
+  ],
+  "limitation": "Saved-model sample inference checked against cached historical features; this is not a new independent validation dataset."
+}

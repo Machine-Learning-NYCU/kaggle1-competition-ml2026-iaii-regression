@@ -1,0 +1,56 @@
+{
+  "accepted": true,
+  "folds": {
+    "stress2021": {
+      "all": {
+        "rows": 105637,
+        "baseline_mae": 2267217.303701013,
+        "candidate_mae": 2222047.6077923016,
+        "ratio": 0.9800770328300793
+      },
+      "cold": {
+        "rows": 90513,
+        "baseline_mae": 2448301.635994376,
+        "candidate_mae": 2395584.444356616,
+        "ratio": 0.9784678526278283
+      },
+      "cold_late": {
+        "rows": 55029,
+        "baseline_mae": 2650242.4458886283,
+        "candidate_mae": 2603800.637105388,
+        "ratio": 0.9824763923559952
+      },
+      "individual_seed_cold_ratios": [
+        0.9836956884669553,
+        0.9750014883242245
+      ],
+      "matching_control_cold_ratio": 0.9744688826365352
+    },
+    "development": {
+      "all": {
+        "rows": 81341,
+        "baseline_mae": 1308237.9705674357,
+        "candidate_mae": 1285717.0175518754,
+        "ratio": 0.9827852779675917
+      },
+      "cold": {
+        "rows": 52299,
+        "baseline_mae": 1663243.3427752082,
+        "candidate_mae": 1628216.3472449172,
+        "ratio": 0.9789405466840189
+      },
+      "cold_late": {
+        "rows": 42686,
+        "baseline_mae": 1578741.1713484717,
+        "candidate_mae": 1547098.8753270102,
+        "ratio": 0.9799572617755737
+      },
+      "individual_seed_cold_ratios": [
+        0.9784229798514646,
+        0.9830968785614332
+      ],
+      "matching_control_cold_ratio": 0.9780951897660495
+    }
+  },
+  "selection_sha256": "0b2e8aea5c8e9603b50ca2473660e6404c2d42fcf35960a5494f0566abd251c1"
+}

@@ -1,0 +1,33 @@
+{
+  "official_metric": "MAE in NTD",
+  "calibration_period": "2024-01 through 2024-04",
+  "penalty": 0.02,
+  "scale_bounds": [
+    0.95,
+    1.05
+  ],
+  "models": [
+    "cat_total",
+    "cat_market",
+    "lgb_market",
+    "lgb_price"
+  ],
+  "selection_evaluation_is_reused": true,
+  "choice": "MAE-calibrated previous experts; new L1 fits failed temporal generalization.",
+  "source_sha256": {
+    "features.py": "59007e4cec3c7dcf2cf0e85d95e8e22c0a524db3633185fe453b33621d258e85",
+    "market.py": "e236646b519e185b7e06c4566c459b0d1b82e16ba220555c04d7911a7ce4fad6",
+    "train.py": "3570fdb22a3763d2120b748ef440fbe3449247ce2ee01d3ea378f2a00746bf22",
+    "mae_models.py": "14eebc70bdfa5c8dcf21e75d4e4a4327166c16416d86029d8209a893a8999bfe",
+    "train_mae.py": "a30479a6734f23d215ae1fbf27d2c587e30b98938b5b00e310ba002ccab4d946",
+    "finalize_mae.py": "f733c901dce2cfd7c26499add2270bd15af6308292d39c3ea0788fc70b4de8d4"
+  },
+  "calibration_sha256": "85313c38dbdf8e523ab46d5c3e41849c34298ed9dcd0f33532a8942b033a1464",
+  "model_sha256": {
+    "cat_total": "574dde129f8a94f74da5fd47c91eaa2e39e54ec66d5310869f7c6a503f7c8a6f",
+    "cat_market": "53fa5476dced85b49e448e3ad98eab8b072595cd02424d15747785e8bbb0e15d",
+    "lgb_market": "8326317958b6f58c5c010f5591e7e805026d1c4ce110a095d501ffb2012b4a94",
+    "lgb_price": "358fa96e94ec9326426b2552caee6b47bc62d213b51c0d7eb6f4355fb9f079da"
+  },
+  "market_sha256": "0486c860b3b33d94fa368c7c2c00ad8d943d9e0a448f23a15b1b30b5a7969da6"
+}

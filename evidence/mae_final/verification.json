@@ -1,0 +1,13 @@
+{
+  "rows": 47073,
+  "columns": [
+    "編號",
+    "總價元"
+  ],
+  "ordered_ids_match": true,
+  "positive_finite_integer_prices": true,
+  "recomputed_model_predictions_match_cache": true,
+  "rounded_predictions_match_exactly": true,
+  "sha256": "14f106316ca69c8f6f0912e259e7f9838422b7df303ec36f41d673bf7182a430",
+  "submitted_to_kaggle": false
+}

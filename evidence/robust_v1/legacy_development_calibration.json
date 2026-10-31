@@ -1,0 +1,16 @@
+{
+  "weights": [
+    0.2601780418530292,
+    0.19118977449565971,
+    0.4342135127583215,
+    0.11441867089298964
+  ],
+  "optimization": {
+    "optimizer": "HiGHS interior-point linear program",
+    "penalty": 0.02,
+    "objective": 0.9833629001765737,
+    "optimality_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "calibration_mae": 1497055.3235587338
+  },
+  "labels_used": "2022-08-11 through 2023-08-10 only"
+}

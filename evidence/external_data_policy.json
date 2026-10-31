@@ -1,0 +1,30 @@
+{
+  "authority": "User-defined research constraints; not a claim of organizer rule verification",
+  "user_statement": "外部資料是合理的，但不能用外部資料去查表，直接找正確答案，而是要找到資料的特徵去學習，進而發揮作用。",
+  "allowed": [
+    "External training examples after leakage screening",
+    "Physical, geographic, temporal and policy features available under the declared information timeline",
+    "Historical aggregate statistics estimated only from the fitting partition"
+  ],
+  "prohibited": [
+    "Retrieve actual target prices for test transactions",
+    "Join per-unit external offers or equivalent answer proxies onto test predictions",
+    "Train on the same test units external price labels as an indirect answer lookup",
+    "Per-ID manual price tuning or coefficients fitted to leaderboard feedback"
+  ],
+  "validation": [
+    "Exclude same-unit external price labels before training and model selection",
+    "Exclude official validation labels from fitting",
+    "Use project-group holdouts and appropriate temporal evaluation",
+    "Record source publication dates and disclose historical-vintage uncertainty",
+    "Do not use public score differences to tune query-specific prices"
+  ],
+  "observed_note_components": "Parsing provided note fields is allowed as deterministic feature/accounting processing; disclose it as non-learned rather than calling it a trained parameter",
+  "baseline": {
+    "filename": "submission1017_v6.csv",
+    "reported_public_mae": 1745458.0575,
+    "excluded_test_unit_labels": 1404,
+    "other_units_used_for_training": 441
+  },
+  "retired_method": "submission1017_v5.csv: direct per-unit public offer lookup; retain only for provenance, not future selection"
+}

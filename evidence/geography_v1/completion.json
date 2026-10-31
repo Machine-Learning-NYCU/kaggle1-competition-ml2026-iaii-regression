@@ -1,0 +1,12 @@
+{
+  "status": "completed_v7_exported_and_reproduced",
+  "tests_passed": 43,
+  "test_warning": "Existing pandas Categorical compatibility warning; no failures.",
+  "new_saved_models_verified": 16,
+  "primary_cat_controls_reused": 2,
+  "old_submissions_unchanged": true,
+  "public_mae": null,
+  "uploaded_to_competition": false,
+  "submission": "submission1017_v7.csv",
+  "submission_sha256": "c6984c5d86f20e794c774d65c52bdf46e4c0b2c7012ad57ff33f43982cc8eda7"
+}

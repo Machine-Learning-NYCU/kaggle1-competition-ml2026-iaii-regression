@@ -1,0 +1,17 @@
+{
+  "python": "3.13.14",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "gpu": "NVIDIA H100 NVL, 95830 MiB, 580.178.04",
+  "source_sha256": {
+    "prepare.py": "aaf173f5e9ac639c5801ccf0b12af2783dd7bef29c110c38d047750ef4b942bc",
+    "features.py": "59007e4cec3c7dcf2cf0e85d95e8e22c0a524db3633185fe453b33621d258e85",
+    "market.py": "e236646b519e185b7e06c4566c459b0d1b82e16ba220555c04d7911a7ce4fad6",
+    "train.py": "8c808c71238a9790abd5ff8856eed8ca286662d992773cc4627d1c1992139b2c",
+    "predict.py": "42f964308ef624395d66ebe69845bfcf263c3c87d2eecbaf9bcdab78bec8ae80",
+    "ablation.py": "ba4656e4ea3831496cfb87a5cdbd938e3e58e7a8bd8e22fc7947dd4b2ec67aae",
+    "report.py": "23659af475ad74bf05aec429d05b527f25e5d7f359b5b19f87f8e7cbfb7076fc",
+    "test_pipeline.py": "e47e4a66fdc599c66186d750eeda80bd87b9ea0b04a21f2cffc0ce2fb83cfbc6",
+    "requirements.lock.txt": "2cb169a16224ae1c7089596ad43259cef3d39f4507e1ce1f88117a393c0ecfa3",
+    "README.md": "434ccd7f66a97b7a1b133cc194becbda4fda55e4961e836c65e60af7a867aef0"
+  }
+}

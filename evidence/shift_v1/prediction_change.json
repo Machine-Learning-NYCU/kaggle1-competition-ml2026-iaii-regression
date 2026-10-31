@@ -1,0 +1,9 @@
+{
+  "changed_rows": 17253,
+  "unchanged_rows": 29820,
+  "unseen_predictions_identical": true,
+  "mean_absolute_prediction_change": 106132.06944532959,
+  "mean_signed_change": -18320.378922099717,
+  "maximum_absolute_change": 459448688,
+  "mae_improvement_observed": null
+}

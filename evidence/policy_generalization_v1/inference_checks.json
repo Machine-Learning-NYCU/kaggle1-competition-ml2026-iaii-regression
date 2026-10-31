@@ -1,0 +1,14 @@
+{
+  "rows": 1408,
+  "identity_removal_invariant": true,
+  "arbitrary_identity_and_price_columns_ignored": true,
+  "row_order_invariant": true,
+  "batch_size_invariant": true,
+  "duplicate_query_invariant": true,
+  "file_access_blocked_during_all_query_predictions": true,
+  "excluded_unit_synthetic_poison_has_no_effect": true,
+  "original_deployment_model_refit_from_safe_labels_reproduced": true,
+  "note_equal_differences_invariant": true,
+  "note_extra_discount_exact": true,
+  "actual_excluded_unit_offer_labels_loaded": false
+}

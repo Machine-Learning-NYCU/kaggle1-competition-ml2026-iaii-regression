@@ -1,0 +1,42 @@
+{
+  "schemes": [
+    {
+      "scheme": "leave_one_project_out",
+      "rows": 441,
+      "folds": 10,
+      "row_coverage_once": true,
+      "training_projects_disjoint": true,
+      "mae_recomputed": true
+    },
+    {
+      "scheme": "leave_related_family_out",
+      "rows": 441,
+      "folds": 8,
+      "row_coverage_once": true,
+      "training_projects_disjoint": true,
+      "mae_recomputed": true
+    },
+    {
+      "scheme": "leave_source_out",
+      "rows": 441,
+      "folds": 2,
+      "row_coverage_once": true,
+      "training_projects_disjoint": true,
+      "mae_recomputed": true
+    },
+    {
+      "scheme": "purged_leave_project_out",
+      "rows": 441,
+      "folds": 10,
+      "row_coverage_once": true,
+      "training_projects_disjoint": true,
+      "mae_recomputed": true
+    }
+  ],
+  "tests_passed": 46,
+  "existing_warning": "Pandas4Warning in old CategoryEncoder unknown-category handling",
+  "protected_files_unchanged": 35,
+  "deployment_changed": false,
+  "submission_v6_sha256": "53bde5d7fa8c97d95ab8897c905b38cf01e16cda6a6eea48f8605a5b848aadd6",
+  "submission_v7_sha256": "c6984c5d86f20e794c774d65c52bdf46e4c0b2c7012ad57ff33f43982cc8eda7"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "fold": "stress2021",
+    "rows": 105637,
+    "cold_rows": 90513,
+    "cold_projects": 3492,
+    "cold_road_or_better_fraction": 0.6871609603040447,
+    "policy_rows": 0
+  },
+  {
+    "fold": "development",
+    "rows": 81341,
+    "cold_rows": 52299,
+    "cold_projects": 1924,
+    "cold_road_or_better_fraction": 0.7109313753609056,
+    "policy_rows": 0
+  },
+  {
+    "fold": "confirmation",
+    "rows": 133746,
+    "cold_rows": 76087,
+    "cold_projects": 2048,
+    "cold_road_or_better_fraction": 0.7100950228028441,
+    "policy_rows": 0
+  },
+  {
+    "fold": "final",
+    "rows": 47073,
+    "cold_rows": 28374,
+    "cold_projects": 1440,
+    "cold_road_or_better_fraction": 0.7339113272714457,
+    "policy_rows": 1408
+  }
+]

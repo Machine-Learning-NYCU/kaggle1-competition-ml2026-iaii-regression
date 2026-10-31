@@ -1,0 +1,24 @@
+{
+  "purpose": "Generalization and no-answer-lookup audit of existing v6/v7 policy branch",
+  "labels": "Only 441 previously screened other-unit house/land offers; no excluded-unit prices or Kaggle test labels",
+  "schemes": [
+    "leave_one_project_out",
+    "leave_related_family_out",
+    "leave_source_out",
+    "purged_leave_project_out"
+  ],
+  "inner_selection": "Original three candidates, 3-fold grouped by related project family; no new tuning",
+  "fixed_model": "Original linear_l1 alpha=0.001",
+  "near_match": "Same floor and terrace; net area within 1.0 sqm",
+  "near_area_tolerance_sqm": 1.0,
+  "seed": 20261018,
+  "negative_control_repeats": 20,
+  "known_before_testing": "Unlabeled covariate inspection: 304 of 441 training rows are within near-match tolerance of a query; 137 remain.",
+  "decision": "Report all results; do not replace submission or fit public-score adjustments",
+  "pristine_holdout": false,
+  "source_sha256": "d42368995d8149902b9267c331e8d40e17cacfe739c092ad5c04b92899c8f144",
+  "sources": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.LeaveOneGroupOut.html",
+    "https://scikit-learn.org/stable/modules/linear_model.html"
+  ]
+}

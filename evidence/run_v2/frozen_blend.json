@@ -1,0 +1,83 @@
+{
+  "models": [
+    "cat_total",
+    "cat_market",
+    "lgb_market",
+    "lgb_price"
+  ],
+  "records": {
+    "cat_total": {
+      "iterations": 1797,
+      "calibration": {
+        "rmsle": 0.10584113723568664,
+        "rmse": 2474182.7809405667,
+        "mae": 1259180.9375577332,
+        "mape": 0.07244438804381771,
+        "within_10pct": 0.7737640898198278
+      }
+    },
+    "cat_market": {
+      "iterations": 898,
+      "calibration": {
+        "rmsle": 0.10747574637264688,
+        "rmse": 2356373.101187629,
+        "mae": 1227022.8660279168,
+        "mape": 0.07260984751914859,
+        "within_10pct": 0.7786234135084761
+      }
+    },
+    "lgb_market": {
+      "iterations": 1800,
+      "calibration": {
+        "rmsle": 0.1097475375864398,
+        "rmse": 2607844.4954346027,
+        "mae": 1251819.8454995637,
+        "mape": 0.07122603771768707,
+        "within_10pct": 0.7860788142362652
+      }
+    },
+    "lgb_price": {
+      "iterations": 1007,
+      "calibration": {
+        "rmsle": 0.19680270298707378,
+        "rmse": 3232897.433569524,
+        "mae": 1415571.7816254627,
+        "mape": 0.08117790129179203,
+        "within_10pct": 0.7478255081210615
+      }
+    }
+  },
+  "weights": {
+    "rmsle": [
+      0.43569522386166887,
+      0.28284342730835194,
+      0.2814613488299792,
+      0.0
+    ],
+    "rmse": [
+      0.38738414300120055,
+      0.5166897279327749,
+      0.06767490899865797,
+      0.028251220067366443
+    ]
+  },
+  "metric_status": "Official scoring rule unconfirmed; separate RMSLE/RMSE candidates.",
+  "calibration_is_selection_data": true,
+  "calibration_blends": {
+    "rmsle": {
+      "rmsle": 0.10286228084940262,
+      "rmse": 2241443.3731147004,
+      "mae": 1162665.2188557573,
+      "mape": 0.06818798350889485,
+      "within_10pct": 0.7936673471199077
+    },
+    "rmse": {
+      "rmsle": 0.10376447824741683,
+      "rmse": 2227873.430097422,
+      "mae": 1175398.377640218,
+      "mape": 0.06956343056734607,
+      "within_10pct": 0.7897843259075176
+    }
+  },
+  "frozen_before_holdout_evaluation": true
+}

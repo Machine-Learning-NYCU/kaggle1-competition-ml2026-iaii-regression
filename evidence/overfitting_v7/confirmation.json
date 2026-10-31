@@ -1,0 +1,113 @@
+{
+  "fold": "confirmation",
+  "fit_rows": 322030,
+  "future_rows": 133746,
+  "cold_rows": 76087,
+  "fit_last_date": "2023-08-10",
+  "nominal_training_cutoff": "2023-08-10",
+  "future_first_date": "2023-08-11",
+  "future_last_date": "2024-08-10",
+  "fit_project_overlap_in_cold": 0,
+  "exact_raw_feature_duplicates_across_split": 0,
+  "all": {
+    "rows": 133746,
+    "baseline_mae": 1440869.2793601044,
+    "candidate_mae": 1399773.8912383781,
+    "gain_ntd": 41095.3881217261,
+    "gain_pct": 2.8521246660194493
+  },
+  "cold": {
+    "rows": 76087,
+    "baseline_mae": 1928516.5451436208,
+    "candidate_mae": 1856278.9253172595,
+    "gain_ntd": 72237.61982636164,
+    "gain_pct": 3.74576095850822
+  },
+  "cold_late": {
+    "rows": 63569,
+    "baseline_mae": 1973639.949660153,
+    "candidate_mae": 1900221.600061292,
+    "gain_ntd": 73418.3495988608,
+    "gain_pct": 3.719946468022344
+  },
+  "matching_control": {
+    "rows": 76087,
+    "baseline_mae": 1924595.0769427672,
+    "candidate_mae": 1856278.9253172595,
+    "gain_ntd": 68316.15162550761,
+    "gain_pct": 3.5496376585369025
+  },
+  "project_cluster_gain_ci95": [
+    38389.97554563589,
+    108372.29672881191
+  ],
+  "city_cluster_gain_ci95": [
+    21938.71256345311,
+    136763.32653351544
+  ],
+  "projects": 2048,
+  "projects_improved": 1115,
+  "projects_worsened": 933,
+  "macro_project_baseline_mae": 2317977.3443288337,
+  "macro_project_candidate_mae": 2159471.291578333,
+  "project_gain_quantiles": {
+    "0.1": -29.186692409618963,
+    "0.25": -10.01406980744959,
+    "0.5": 1.595873148771235,
+    "0.75": 12.99560810663433,
+    "0.9": 27.367878227653183
+  },
+  "top10_positive_gain_share": 0.2546503372468588,
+  "leave_top_gain_projects_out": [
+    {
+      "remove_top_gain_projects": 1,
+      "rows": 75641,
+      "baseline_mae": 1907010.1101126955,
+      "candidate_mae": 1842161.1975043714,
+      "gain_ntd": 64848.912608324,
+      "gain_pct": 3.4005542112459914
+    },
+    {
+      "remove_top_gain_projects": 5,
+      "rows": 74918,
+      "baseline_mae": 1866951.1184643859,
+      "candidate_mae": 1823481.2436318584,
+      "gain_ntd": 43469.87483252817,
+      "gain_pct": 2.328388483372963
+    },
+    {
+      "remove_top_gain_projects": 10,
+      "rows": 73618,
+      "baseline_mae": 1836124.1901740714,
+      "candidate_mae": 1802334.4728701212,
+      "gain_ntd": 33789.71730394995,
+      "gain_pct": 1.8402740666875435
+    }
+  ],
+  "individual_seeds": [
+    {
+      "seed": 20261017,
+      "rows": 76087,
+      "baseline_mae": 1928516.5451436208,
+      "candidate_mae": 1849000.1029948404,
+      "gain_ntd": 79516.4421487808,
+      "gain_pct": 4.123192116189943
+    },
+    {
+      "seed": 20261018,
+      "rows": 76087,
+      "baseline_mae": 1928516.5451436208,
+      "candidate_mae": 1869662.35908775,
+      "gain_ntd": 58854.186055871214,
+      "gain_pct": 3.0517853841636464
+    }
+  ],
+  "seed_prediction_difference_median_ntd": 125922.84390427545,
+  "seed_prediction_difference_p95_ntd": 567195.6808060567,
+  "fit_price_quantile_edges": [
+    11110000.0,
+    23600000.0,
+    55970000.0
+  ],
+  "baseline_cold_mae": 1928516.5451436208
+}

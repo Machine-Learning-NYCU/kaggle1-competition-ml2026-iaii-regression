@@ -1,0 +1,42 @@
+{
+  "diagnostic_only_no_routing_or_selection_changes": true,
+  "frozen_alpha": 0.5,
+  "seeds_averaged": 2,
+  "rows": [
+    {
+      "location_level": 1,
+      "rows": 1294,
+      "baseline_mae": 3785700.196285506,
+      "candidate_mae": 3661649.7411156436,
+      "gain_pct": 3.2768166716312996
+    },
+    {
+      "location_level": 2,
+      "rows": 20764,
+      "baseline_mae": 1687004.85428315,
+      "candidate_mae": 1668467.5945219982,
+      "gain_pct": 1.098826699525346
+    },
+    {
+      "location_level": 3,
+      "rows": 45338,
+      "baseline_mae": 1897811.7179190298,
+      "candidate_mae": 1837225.695086965,
+      "gain_pct": 3.192414835466284
+    },
+    {
+      "location_level": 4,
+      "rows": 3015,
+      "baseline_mae": 2907624.703197378,
+      "candidate_mae": 2697557.9350319644,
+      "gain_pct": 7.224686457451446
+    },
+    {
+      "location_level": 5,
+      "rows": 5676,
+      "baseline_mae": 2113794.4635061435,
+      "candidate_mae": 1837065.3550003013,
+      "gain_pct": 13.091580722887919
+    }
+  ]
+}

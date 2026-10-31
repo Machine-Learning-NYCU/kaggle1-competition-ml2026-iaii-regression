@@ -1,0 +1,11 @@
+{
+  "all_47073_ids_and_schema_verified": true,
+  "prediction_without_identifiers_or_csv_access": true,
+  "saved_model_reproduces_all_changed_prices": true,
+  "unchanged_rows": 45665,
+  "actual_changed_rows": 1408,
+  "legacy_hashes_unchanged": true,
+  "source_hashes_unchanged": true,
+  "test_suite": "33 passed; one existing pandas future-compatibility warning",
+  "sha256": "53bde5d7fa8c97d95ab8897c905b38cf01e16cda6a6eea48f8605a5b848aadd6"
+}

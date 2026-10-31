@@ -1,0 +1,74 @@
+{
+  "metric": "MAE",
+  "model_selection_on_reused_evaluation": true,
+  "evaluations": {
+    "future_2024_05_to_08": {
+      "previous_rmsle_ensemble": {
+        "rmsle": 0.1289164561157287,
+        "rmse": 10283066.393703233,
+        "mae": 1762303.515112526,
+        "mape": 0.08949313784481774,
+        "within_10pct": 0.6649613486286088
+      },
+      "previous_rmse_ensemble": {
+        "rmsle": 0.1289337265639511,
+        "rmse": 7071547.986667928,
+        "mae": 1746648.9533825666,
+        "mape": 0.09064074985519047,
+        "within_10pct": 0.6632485181762863
+      },
+      "mae_selected": {
+        "rmsle": 0.1297543015212421,
+        "rmse": 6391496.858434112,
+        "mae": 1740720.3016615945,
+        "mape": 0.08996401805946377,
+        "within_10pct": 0.6653219445133083
+      },
+      "relative_improvement_vs_previous_main": 0.01224716018883576,
+      "uncertainty": {
+        "mae_95pct": [
+          1578666.3671764869,
+          1910842.4782739908
+        ],
+        "improvement_over_legacy_95pct": [
+          -18925.647444191658,
+          91156.10079221238
+        ]
+      }
+    },
+    "official_valid": {
+      "previous_rmsle_ensemble": {
+        "rmsle": 0.06425542167535268,
+        "rmse": 1799188.0858436627,
+        "mae": 701224.7347048803,
+        "mape": 0.04591274288616018,
+        "within_10pct": 0.9013673503418376
+      },
+      "previous_rmse_ensemble": {
+        "rmsle": 0.07423633994716142,
+        "rmse": 2042145.8361797223,
+        "mae": 797890.9298564214,
+        "mape": 0.05224983102494537,
+        "within_10pct": 0.869518092379523
+      },
+      "mae_selected": {
+        "rmsle": 0.06259110897893286,
+        "rmse": 1479505.6139011101,
+        "mae": 666277.4521582718,
+        "mape": 0.044511894152198916,
+        "within_10pct": 0.9087877271969318
+      },
+      "relative_improvement_vs_previous_main": 0.04983749262826065,
+      "uncertainty": {
+        "mae_95pct": [
+          641073.5076746065,
+          697359.394752663
+        ],
+        "improvement_over_legacy_95pct": [
+          25212.982806995868,
+          51468.86949353012
+        ]
+      }
+    }
+  }
+}

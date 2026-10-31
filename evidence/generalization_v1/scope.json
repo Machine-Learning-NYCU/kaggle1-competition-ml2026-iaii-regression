@@ -1,0 +1,29 @@
+[
+  {
+    "fold": "stress2021",
+    "rows": 105637,
+    "raw_unseen": 90524,
+    "canonical_cold_nonpolicy": 90513,
+    "policy_rows": 0,
+    "excluded_raw_unseen_due_to_alias_or_policy": 11,
+    "cold_canonical_projects": 3492
+  },
+  {
+    "fold": "development",
+    "rows": 81341,
+    "raw_unseen": 52319,
+    "canonical_cold_nonpolicy": 52299,
+    "policy_rows": 0,
+    "excluded_raw_unseen_due_to_alias_or_policy": 20,
+    "cold_canonical_projects": 1924
+  },
+  {
+    "fold": "final",
+    "rows": 47073,
+    "raw_unseen": 29820,
+    "canonical_cold_nonpolicy": 28374,
+    "policy_rows": 1408,
+    "excluded_raw_unseen_due_to_alias_or_policy": 1446,
+    "cold_canonical_projects": 1440
+  }
+]

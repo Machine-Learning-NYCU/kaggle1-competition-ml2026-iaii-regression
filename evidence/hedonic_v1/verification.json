@@ -1,0 +1,15 @@
+{
+  "rows": 47073,
+  "columns": [
+    "編號",
+    "總價元"
+  ],
+  "ids_unique": true,
+  "positive_integer_prices": true,
+  "saved_model_inference_reproduced_from_raw_test": true,
+  "baseline_matches_submitted_v2": true,
+  "frozen_source_and_training_test_data_hashes_verified": true,
+  "sha256": "7b501f7ac7003e64c9bc5d9ed1e4dddd419a3c9def95dde863886ebc445871d3",
+  "submitted": false,
+  "public_mae": null
+}

@@ -1,0 +1,10 @@
+{
+  "existing_tests_passed": 43,
+  "existing_test_warning": "Pandas4Warning in CategoryEncoder unknown categories",
+  "frozen_files_unchanged": 189,
+  "confirmation_candidate_recomputed_from_independent_npz": true,
+  "all_project_weighted_totals_reconcile": true,
+  "checkpoint_records": 108,
+  "models_refitted": false,
+  "submission_sha256": "c6984c5d86f20e794c774d65c52bdf46e4c0b2c7012ad57ff33f43982cc8eda7"
+}

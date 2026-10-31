@@ -1,0 +1,10 @@
+{
+  "raw_test_reconstructed": true,
+  "geocoder_features_recomputed": true,
+  "saved_price_models_reproduce_all_rows": true,
+  "submission_sha256": "c6984c5d86f20e794c774d65c52bdf46e4c0b2c7012ad57ff33f43982cc8eda7",
+  "protected_rows_unchanged": true,
+  "policy_rows": 1408,
+  "refitting_performed": false,
+  "base_v6_used_for_unchanged_branch": true
+}

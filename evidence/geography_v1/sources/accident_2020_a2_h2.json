@@ -1,0 +1,13 @@
+{
+  "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/67781E29-8AAD-46A9-A2C8-C3F339592C27/resource/649FB516-F037-4D9C-9FF7-9181D9AB22F5/download",
+  "catalog_url": "https://data.gov.tw/dataset/12197",
+  "agency": "National Police Agency, Taiwan",
+  "license": "Open Government Data License Taiwan 1.0",
+  "event_year": 2020,
+  "retrieved_at_utc": "2026-10-17T19:03:10.063574+00:00",
+  "bytes": 31691930,
+  "sha256": "b55c64a36b533b489296022642e894d390cbfb1a82ce15d4f550d12f8ba7d534",
+  "http_headers_file": "artifacts/geography_v1/sources/accident_2020_a2_h2.headers",
+  "original_release_snapshot_verified": false,
+  "usage": "Address and coordinates only; no property prices or unit-level offer records"
+}

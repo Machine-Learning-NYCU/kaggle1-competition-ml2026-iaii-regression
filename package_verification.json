@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "copied_files_verified": 165,
+  "csv_rows_each": 47073,
+  "v6_v7_changed_rows": 28374,
+  "public_improvement_ntd": "29043.5252",
+  "historical_improvements": [
+    {
+      "window": "stress2021",
+      "improvement_percent": 1.9922967169920702
+    },
+    {
+      "window": "development",
+      "improvement_percent": 1.7214722032408258
+    },
+    {
+      "window": "confirmation",
+      "improvement_percent": 2.852124666019451
+    }
+  ],
+  "policy_offer_results": {
+    "leave_one_project_out": {
+      "offer_mae": 243591.59611080805,
+      "improvement_percent": 17.083702592445626
+    },
+    "leave_related_family_out": {
+      "offer_mae": 243834.50878039267,
+      "improvement_percent": 17.009712507287833
+    },
+    "leave_source_out": {
+      "offer_mae": 269993.8663904347,
+      "improvement_percent": 6.541304399832304
+    },
+    "purged_leave_project_out": {
+      "offer_mae": 243874.1704846749,
+      "improvement_percent": 16.398616591945945
+    }
+  },
+  "private_score_known": false,
+  "check_scope": "Hash/schema/aggregate consistency; not model retraining or fresh evaluation.",
+  "verified_at": "2026-10-31T19:39:26+08:00",
+  "synthetic_tests": {
+    "command": "OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=1 python -m pytest -q",
+    "working_directory": "project",
+    "passed": 46,
+    "warnings": 1,
+    "warning_summary": "Pandas4Warning for unseen categories in features.py:161; no test failures",
+    "environment": "Existing research Python 3.13 environment; no fresh dependency installation performed",
+    "scope_note": "46 passed before this title-only documentation update; model source is unchanged and hash-verified."
+  },
+  "pdf": {
+    "path": "report/report.pdf",
+    "pages": 6,
+    "sha256": "a3b420f1d917e354d9183f80fb7f01131f08d954e4fa9739020c9f9c5a1ad84c",
+    "build": "XeLaTeX via latexmk; successful",
+    "visual_review": "Student-ID title page rendered and inspected after rebuild; prior report pages inspected before title-only revision.",
+    "missing_glyphs_or_overfull_boxes": false,
+    "title_includes_student_id": "314580075"
+  },
+  "publication": {
+    "github_published": false,
+    "reference_template_verified": false,
+    "destination_repository": "Machine-Learning-NYCU/kaggle1-competition-ml2026-iaii-regression",
+    "write_access": false
+  }
+}

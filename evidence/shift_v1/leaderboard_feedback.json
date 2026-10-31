@@ -1,0 +1,14 @@
+{
+  "reported_by": "user",
+  "reported_date_local": "2026-10-17",
+  "submitted_filename": "submission1017_v4.csv",
+  "source_sha256": "723ce5f0c04740fdcdc4ff9cfc3976deddb644a0462fa5ab3e6a8b28aff7e058",
+  "source_match": "Filename matches verified local artifact; uploaded bytes not independently available",
+  "score_mae": 2043963.0611,
+  "previous_score_mae": 2092770.8572,
+  "improvement_ntd": 48807.79609999992,
+  "improvement_fraction": 0.023322092780526327,
+  "improvement_from_initial_fraction": 0.1459661928735143,
+  "feedback_used_for": "Record public score; no scalar or subgroup adjustment fitted to the public score",
+  "external_policy_experiment_authorized_by_user": true
+}

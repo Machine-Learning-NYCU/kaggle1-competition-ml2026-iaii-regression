@@ -1,0 +1,55 @@
+{
+  "specs": {
+    "semantic_full": {
+      "window": null,
+      "decay": null,
+      "balance": false
+    },
+    "recent24": {
+      "window": 24,
+      "decay": null,
+      "balance": false
+    },
+    "decay18": {
+      "window": null,
+      "decay": 18,
+      "balance": false
+    },
+    "balanced18": {
+      "window": null,
+      "decay": 18,
+      "balance": true
+    }
+  },
+  "patterns": {
+    "leasehold": "地上權",
+    "relocation": "安置住宅",
+    "subsidy": "差額減收|補貼|減免",
+    "bare_shell": "毛胚|毛坯",
+    "equipment": "傢俱|家具|家電|設備費",
+    "terrace": "露台|露臺",
+    "canopy": "雨遮",
+    "farm_extra": "農地",
+    "employee": "員工",
+    "contract_transfer": "讓渡|換約",
+    "parking_exclusive": "約定專用車位"
+  },
+  "depth": 8,
+  "learning_rate": 0.045,
+  "max_iterations": 5000,
+  "source_sha256": {
+    "train_shift.py": "af1710e04313beb405dd27318a7aee3a09e2d343e57065a4d4d6559ffc66907a",
+    "train_hedonic.py": "70e8097a3ce2ac047552742ef74e63af4984deceac122053c90170feae5e41b7",
+    "features.py": "59007e4cec3c7dcf2cf0e85d95e8e22c0a524db3633185fe453b33621d258e85",
+    "robust_features.py": "76f9bf5f5993cbe2ff51697adfb60210cec34ca7a888e01dff24fc5c496bd736",
+    "spatial_prior.py": "925e2d2ae497d8c7d9535eb5f696812ce24e9e1b27a9227c7a84177da8297358"
+  },
+  "data_sha256": {
+    "train": "b52f792b2f7857aaedd459cc11dcacc4dfd5d44b7300c5245c55689c251df882",
+    "test": "4e3ea5278a17539b649593d1089f278c33de2b0cabd8a217aad40a59abf7c53c"
+  },
+  "parent_selection_sha256": "c6131e84161b090cf7dd9c46db7469d68c08d18fe6d58fc786be814eb043010e",
+  "external_data_used": false,
+  "early_stop": "2022 development first four months",
+  "validation": "Reused historical windows; no claim of pristine validation"
+}

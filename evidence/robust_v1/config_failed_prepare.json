@@ -1,0 +1,36 @@
+{
+  "folds": {
+    "development": [
+      "2022-08-10",
+      "2023-08-10"
+    ],
+    "confirmation": [
+      "2023-08-10",
+      "2024-08-10"
+    ],
+    "final": [
+      "2024-08-10",
+      null
+    ]
+  },
+  "new_models": [
+    "cat_unit",
+    "cat_log",
+    "lgb_unit"
+  ],
+  "iterations_max": 5000,
+  "source_sha256": {
+    "robust_features.py": "f8f352393e513d658f3e6c96dee5f6be400e7dad7d260a1f8c509873f1fe5a52",
+    "train_robust.py": "8519d85a29acc15d01379c27fe1c0ba817ecf37b545e3b47560c1c15f9f3323e",
+    "features.py": "59007e4cec3c7dcf2cf0e85d95e8e22c0a524db3633185fe453b33621d258e85",
+    "market.py": "e236646b519e185b7e06c4566c459b0d1b82e16ba220555c04d7911a7ce4fad6",
+    "train.py": "3570fdb22a3763d2120b748ef440fbe3449247ce2ee01d3ea378f2a00746bf22"
+  },
+  "data_sha256": {
+    "train": "b52f792b2f7857aaedd459cc11dcacc4dfd5d44b7300c5245c55689c251df882",
+    "test": "4e3ea5278a17539b649593d1089f278c33de2b0cabd8a217aad40a59abf7c53c"
+  },
+  "early_stop": "First four months of development forecast only",
+  "selection": "Development year only; confirmation is reused historical data with a new cutoff",
+  "feedback_score": 2393304.6257
+}

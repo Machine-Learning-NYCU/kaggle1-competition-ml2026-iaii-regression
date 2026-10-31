@@ -1,0 +1,662 @@
+{
+  "project/ablation.py": {
+    "source": "ablation.py",
+    "sha256": "ba4656e4ea3831496cfb87a5cdbd938e3e58e7a8bd8e22fc7947dd4b2ec67aae"
+  },
+  "project/audit_launch.py": {
+    "source": "audit_launch.py",
+    "sha256": "5c5ddf5cabc1af9aaf7463c59e5d81577aef9ccba8bda370407381f9d820a644"
+  },
+  "project/audit_overfitting_v7.py": {
+    "source": "audit_overfitting_v7.py",
+    "sha256": "e9c62603c3bcb41e1de691690723db2ad87585aaf317afed61d605f507898a94"
+  },
+  "project/audit_policy_generalization.py": {
+    "source": "audit_policy_generalization.py",
+    "sha256": "d42368995d8149902b9267c331e8d40e17cacfe739c092ad5c04b92899c8f144"
+  },
+  "project/audit_regimes.py": {
+    "source": "audit_regimes.py",
+    "sha256": "56fa33ddb31aa29e68fe82f4b301608139aca7fcb82821da8218c1b8f63b9780"
+  },
+  "project/comparable_sales.py": {
+    "source": "comparable_sales.py",
+    "sha256": "527f92c65e058ef17054e7b466625a084c28493a742a19228f47f086f112560b"
+  },
+  "project/features.py": {
+    "source": "features.py",
+    "sha256": "59007e4cec3c7dcf2cf0e85d95e8e22c0a524db3633185fe453b33621d258e85"
+  },
+  "project/finalize_mae.py": {
+    "source": "finalize_mae.py",
+    "sha256": "f733c901dce2cfd7c26499add2270bd15af6308292d39c3ea0788fc70b4de8d4"
+  },
+  "project/geography_features.py": {
+    "source": "geography_features.py",
+    "sha256": "ae0c24f72c01a0e8a80098a7e9304c38d862d2fb39efdf843a80cd9f43f1377a"
+  },
+  "project/launch_index.py": {
+    "source": "launch_index.py",
+    "sha256": "0c19386e38a49fc6ba931d65d1d44e7c0bb09d426e94a1199bb3d674983a3e35"
+  },
+  "project/mae_models.py": {
+    "source": "mae_models.py",
+    "sha256": "14eebc70bdfa5c8dcf21e75d4e4a4327166c16416d86029d8209a893a8999bfe"
+  },
+  "project/market.py": {
+    "source": "market.py",
+    "sha256": "e236646b519e185b7e06c4566c459b0d1b82e16ba220555c04d7911a7ce4fad6"
+  },
+  "project/moi_history.py": {
+    "source": "moi_history.py",
+    "sha256": "a8103ac307ee7a5798005d4dbb9adbd7e0990ec9028d5cad704aee77d6b1a69d"
+  },
+  "project/policy_expert.py": {
+    "source": "policy_expert.py",
+    "sha256": "24da69e27559b51e2bcfc0b3ec70461af761054e72b331fbd37fbf0ebc56b4d5"
+  },
+  "project/policy_tables.py": {
+    "source": "policy_tables.py",
+    "sha256": "2c1f0411e1dd760f1446b35b375a8144baaf9151b4fcba07d37daeba644bcdf9"
+  },
+  "project/predict.py": {
+    "source": "predict.py",
+    "sha256": "42f964308ef624395d66ebe69845bfcf263c3c87d2eecbaf9bcdab78bec8ae80"
+  },
+  "project/predict_mae.py": {
+    "source": "predict_mae.py",
+    "sha256": "586836e793fc5bdfcdee9c6e2d0bd73fd2334703f39f48c553f94e0ab401fa23"
+  },
+  "project/prepare.py": {
+    "source": "prepare.py",
+    "sha256": "aaf173f5e9ac639c5801ccf0b12af2783dd7bef29c110c38d047750ef4b942bc"
+  },
+  "project/report.py": {
+    "source": "report.py",
+    "sha256": "121167353c928a65d3a65a529d697aff7dffc11c984959ad410bf10ba6830932"
+  },
+  "project/report_generalization.py": {
+    "source": "report_generalization.py",
+    "sha256": "c0e3f1c7792c71961e551e4995fcad24b4707aff6e927fea7a6210cf7524a702"
+  },
+  "project/report_geography.py": {
+    "source": "report_geography.py",
+    "sha256": "de57d24445ad616a9aa010cb4dbdc695d073e24c5ceb558cf2a003710e8eee0c"
+  },
+  "project/report_hedonic.py": {
+    "source": "report_hedonic.py",
+    "sha256": "3e65394ff81eda51051a9f82a7873aadfbe1bf5d112c06917c2245d0d40d8b5e"
+  },
+  "project/report_mae.py": {
+    "source": "report_mae.py",
+    "sha256": "dd46082ba88df730da4f4fd7fce1496f361a6fbbbf33eaaa2bc33740c5fe1baa"
+  },
+  "project/report_overfitting_v7.py": {
+    "source": "report_overfitting_v7.py",
+    "sha256": "2586258bf2bac48833136d26cf7d958a430690ce6b722d29ddce535d83167fe6"
+  },
+  "project/report_policy_generalization.py": {
+    "source": "report_policy_generalization.py",
+    "sha256": "4c64382e5469574cf55c36799aa708b9fce96fc0c64e6b62bc34fc47a0d802c8"
+  },
+  "project/report_robust.py": {
+    "source": "report_robust.py",
+    "sha256": "debecd5d8a9aa74feb83dcf1ec18c0cd2ec8bb6dc819155c944aa1b2f445cf52"
+  },
+  "project/report_shift.py": {
+    "source": "report_shift.py",
+    "sha256": "d7e5c363aace6f0c1c9217dbe8bfcf9e475f8a3709dd2f9350b2f6a8f96c7b6e"
+  },
+  "project/robust_features.py": {
+    "source": "robust_features.py",
+    "sha256": "76f9bf5f5993cbe2ff51697adfb60210cec34ca7a888e01dff24fc5c496bd736"
+  },
+  "project/select_hedonic.py": {
+    "source": "select_hedonic.py",
+    "sha256": "c87831d2b2a36a41f1e44786ef0593d0637371f677cb80c493775cadbea0541e"
+  },
+  "project/select_robust.py": {
+    "source": "select_robust.py",
+    "sha256": "fb9ee3049b19d6945eddcd190b4635a4cf134ccf80e3f3acc7afe3c510b5fdab"
+  },
+  "project/select_shift.py": {
+    "source": "select_shift.py",
+    "sha256": "53643756a9fe371c3339a946eb94c71ba5a056edd3f8b5eb973f2449d26ea1c3"
+  },
+  "project/spatial_prior.py": {
+    "source": "spatial_prior.py",
+    "sha256": "925e2d2ae497d8c7d9535eb5f696812ce24e9e1b27a9227c7a84177da8297358"
+  },
+  "project/test_generalization.py": {
+    "source": "test_generalization.py",
+    "sha256": "e5ac10cfd4aa828a11d181fa62cbfc623ee20690a7a5b3e459ce02de8ce5ca67"
+  },
+  "project/test_geography.py": {
+    "source": "test_geography.py",
+    "sha256": "29fb5bba068a77e197d03200457e55713196fc908d1f7fd8681aa21e711a6b4e"
+  },
+  "project/test_hedonic.py": {
+    "source": "test_hedonic.py",
+    "sha256": "5e286426a5627cad80e4480ed968595eb8200300dc0c4373e4d0cc0b468de3a3"
+  },
+  "project/test_mae.py": {
+    "source": "test_mae.py",
+    "sha256": "557f87dd46b71575a939948f483b058f11a5f0a2183628bcf489499ff3fc37e9"
+  },
+  "project/test_moi.py": {
+    "source": "test_moi.py",
+    "sha256": "32ecfd58c4b4470e795c1ee5cb13d479d4fb40874873da8983bb2f09241d6e18"
+  },
+  "project/test_pipeline.py": {
+    "source": "test_pipeline.py",
+    "sha256": "e47e4a66fdc599c66186d750eeda80bd87b9ea0b04a21f2cffc0ce2fb83cfbc6"
+  },
+  "project/test_policy.py": {
+    "source": "test_policy.py",
+    "sha256": "9e144329f93a59bc6e674d96fbe3d56d34c3a193202f2ead4af01181816899a6"
+  },
+  "project/test_policy_generalization.py": {
+    "source": "test_policy_generalization.py",
+    "sha256": "73abaf7c532c999c000545bb73f0a491b77c0a0d2c4f63423e2c7c75a43becf5"
+  },
+  "project/test_policy_learned.py": {
+    "source": "test_policy_learned.py",
+    "sha256": "d6b011aacf6c35b09f07c7a4859d6978a0be271fee5db44024dbab7fabc45eed"
+  },
+  "project/test_robust.py": {
+    "source": "test_robust.py",
+    "sha256": "9478c4678a935191a92f0adfc4657883970d6cea49378e838af7c5ecf2954e42"
+  },
+  "project/test_shift.py": {
+    "source": "test_shift.py",
+    "sha256": "603e91a604a7dea5bc116f7ffa9bd8932bacb8b06d67a64546683f4616616ffe"
+  },
+  "project/test_spatial.py": {
+    "source": "test_spatial.py",
+    "sha256": "b3e9100697fead0c7316e16d6c5dc54c00d7e56da537c8f6b11410fe1f86005d"
+  },
+  "project/train.py": {
+    "source": "train.py",
+    "sha256": "3570fdb22a3763d2120b748ef440fbe3449247ce2ee01d3ea378f2a00746bf22"
+  },
+  "project/train_centered.py": {
+    "source": "train_centered.py",
+    "sha256": "461f2169d675d8544ce14874cc084b26c7836a792314a72dd6d2833990a1c7a9"
+  },
+  "project/train_generalization.py": {
+    "source": "train_generalization.py",
+    "sha256": "1883521a00309ec287ff97409029919535d548d1557e4814d84ab5524ccae409"
+  },
+  "project/train_geography.py": {
+    "source": "train_geography.py",
+    "sha256": "ad136dc71df3b7cdb31d165b4b3beae5084ea5ecb73b5420042991d017a30070"
+  },
+  "project/train_hedonic.py": {
+    "source": "train_hedonic.py",
+    "sha256": "70e8097a3ce2ac047552742ef74e63af4984deceac122053c90170feae5e41b7"
+  },
+  "project/train_mae.py": {
+    "source": "train_mae.py",
+    "sha256": "a30479a6734f23d215ae1fbf27d2c587e30b98938b5b00e310ba002ccab4d946"
+  },
+  "project/train_policy_learned.py": {
+    "source": "train_policy_learned.py",
+    "sha256": "471254ff7dbcd7bc7229c47e8d04da0136c933dc7974ed5b947f0d76ebaf49a5"
+  },
+  "project/train_robust.py": {
+    "source": "train_robust.py",
+    "sha256": "4d7b90cdb39beaa86b2e96de6fbf5cf6a74d484974a758c05b3f8fbab8a80298"
+  },
+  "project/train_shift.py": {
+    "source": "train_shift.py",
+    "sha256": "af1710e04313beb405dd27318a7aee3a09e2d343e57065a4d4d6559ffc66907a"
+  },
+  "project/train_spatial.py": {
+    "source": "train_spatial.py",
+    "sha256": "4a24da1646aa4231d3147f5f5606cc0571c50e63dabb374df0e1e3496f863622"
+  },
+  "project/train_transfer.py": {
+    "source": "train_transfer.py",
+    "sha256": "62fa0d775191c51bba68933e81b4a485e35dc4245261a108946edf3a7023adcb"
+  },
+  "project/try_loglink_mae.py": {
+    "source": "try_loglink_mae.py",
+    "sha256": "911108081ee2f898c834604978e971e750f88506c636ca1633d21bc5c95eb1e8"
+  },
+  "project/verify.py": {
+    "source": "verify.py",
+    "sha256": "6fc6a2797a5e313d01d4feeaf93c7b2c28473f14be4b8faac0735cdcdc3507d0"
+  },
+  "project/verify_generalization.py": {
+    "source": "verify_generalization.py",
+    "sha256": "c50c49ef9be49c6aeee0d080f627370c44661cc11aaef2c99c601322b2226624"
+  },
+  "project/verify_geography.py": {
+    "source": "verify_geography.py",
+    "sha256": "b72963614e85faf6b905adc6561ec816360211fea538e308056333a944d62507"
+  },
+  "project/verify_mae.py": {
+    "source": "verify_mae.py",
+    "sha256": "ea1b5f2d758a7be62ef6085735c27ae2f87c247e8f6d228992f119773b21f232"
+  },
+  "project/requirements.txt": {
+    "source": "requirements.txt",
+    "sha256": "d3ad0231c4b44a773474076419dfb02d9dc0bf84fad832494448efbe221abdb2"
+  },
+  "project/requirements.lock.txt": {
+    "source": "requirements.lock.txt",
+    "sha256": "2cb169a16224ae1c7089596ad43259cef3d39f4507e1ce1f88117a393c0ecfa3"
+  },
+  "project/pytest.ini": {
+    "source": "pytest.ini",
+    "sha256": "f15dd13e07794369c2133f4d8d3740077fc55997c5c1a89cd53cc3fa4ecfe226"
+  },
+  "submissions/submission1017_v6.csv": {
+    "source": "submission1017_v6.csv",
+    "sha256": "53bde5d7fa8c97d95ab8897c905b38cf01e16cda6a6eea48f8605a5b848aadd6"
+  },
+  "submissions/submission1017_v7.csv": {
+    "source": "submission1017_v7.csv",
+    "sha256": "c6984c5d86f20e794c774d65c52bdf46e4c0b2c7012ad57ff33f43982cc8eda7"
+  },
+  "evidence/leaderboard_history.json": {
+    "source": "artifacts/leaderboard_history.json",
+    "sha256": "47b03d0b5b9b5f8ef7d2b0d310967dddc8b292989dea0819d55599fd43c58cc2"
+  },
+  "evidence/external_data_policy.json": {
+    "source": "artifacts/external_data_policy.json",
+    "sha256": "e01a608f085c4b25ad5d2153f80ce34eb500509864391e59fc7d03f9eb13e4aa"
+  },
+  "evidence/data_audit.json": {
+    "source": "artifacts/data_audit.json",
+    "sha256": "43411a52101d4cb3198e88169f9f9efa0030ae36cd9632e20331eef58bba898d"
+  },
+  "evidence/run_v2/ablation.json": {
+    "source": "artifacts/run_v2/ablation.json",
+    "sha256": "47544be190a3eb711b2e5f583be8d110c6977460ab22ae3d1812f52744d5679d"
+  },
+  "evidence/run_v2/ablation_protocol.json": {
+    "source": "artifacts/run_v2/ablation_protocol.json",
+    "sha256": "9f0c3fd7b7147752aab57195917c47ef7bdf6bc1fa903ee8bb1fea3ca02b3a58"
+  },
+  "evidence/run_v2/config.before_membership_optimization.json": {
+    "source": "artifacts/run_v2/config.before_membership_optimization.json",
+    "sha256": "e2e4b4a2a0e6b6c359ca676a2f1069c4ec8d04797220b0648bd3cbb76ebde9b0"
+  },
+  "evidence/run_v2/config.json": {
+    "source": "artifacts/run_v2/config.json",
+    "sha256": "7b6419c7d4053c1fcda46ab9c3311815df50a01100fb5e4751f59720120fa276"
+  },
+  "evidence/run_v2/environment.json": {
+    "source": "artifacts/run_v2/environment.json",
+    "sha256": "6845bb3e3b2c1fbc0c936ba3912fcc6f427f76cedad6cb6ddcc2cbcda5890af1"
+  },
+  "evidence/run_v2/evaluation.json": {
+    "source": "artifacts/run_v2/evaluation.json",
+    "sha256": "768c095343a470234e6a09b13bec6d0b829f9b4281e8cf8cca41cbf0bf005b4e"
+  },
+  "evidence/run_v2/frozen_blend.json": {
+    "source": "artifacts/run_v2/frozen_blend.json",
+    "sha256": "e59b117eb9f872ac6ebd836e08637b9446d25da94a261425ca2172a4eda96e52"
+  },
+  "evidence/run_v2/run_amendments.json": {
+    "source": "artifacts/run_v2/run_amendments.json",
+    "sha256": "94e9f4034cf442ef998dbe239c9f27d405638b4d9c358f307200a8e928c6377d"
+  },
+  "evidence/run_v2/source_final_manifest.json": {
+    "source": "artifacts/run_v2/source_final_manifest.json",
+    "sha256": "ea524facd2cd4405b81451fa2ab45d89f52a8f8f37659a7219161f30f6872841"
+  },
+  "evidence/run_v2/split_manifest.json": {
+    "source": "artifacts/run_v2/split_manifest.json",
+    "sha256": "88aefa6ff4caec65fd409b94052270138e6ae9a26721ffe5b909f200bf16e11d"
+  },
+  "evidence/run_v2/submission_manifest.json": {
+    "source": "artifacts/run_v2/submission_manifest.json",
+    "sha256": "c8dbb8ebd12139f29a1f4a3df0c334f370da937f929c881ddfc1ed6cd57d3fd0"
+  },
+  "evidence/run_v2/tail_diagnostics.json": {
+    "source": "artifacts/run_v2/tail_diagnostics.json",
+    "sha256": "ee7d02b3064e24447934add144114cd13facf5a616fba4e7a9345aa8ec455799"
+  },
+  "evidence/run_v2/verification.json": {
+    "source": "artifacts/run_v2/verification.json",
+    "sha256": "14b3d4240e039146551a66a5db8d8aa0c32dbbf18a3e482b60ea1e755ff07222"
+  },
+  "evidence/mae_final/calibration.json": {
+    "source": "artifacts/mae_final/calibration.json",
+    "sha256": "151e42997b7bd16151a97659d3be450ef1f7c8fe762b4d1a273cc9beeefb33fa"
+  },
+  "evidence/mae_final/config.json": {
+    "source": "artifacts/mae_final/config.json",
+    "sha256": "8c947d666bd72e48ce16e98321b5d8e0a6068686e09ac51e2a5b2db9581c029f"
+  },
+  "evidence/mae_final/evaluation.json": {
+    "source": "artifacts/mae_final/evaluation.json",
+    "sha256": "d4ae839a4e8ab437764c313a996cc3fa9008d5e12f992a5f8148d3397dc7405f"
+  },
+  "evidence/mae_final/verification.json": {
+    "source": "artifacts/mae_final/verification.json",
+    "sha256": "ce3350c161d3cb6f04a8c4a0c74872caf477ebeb83c9e206aa07a43c2f2005e2"
+  },
+  "evidence/robust_v1/artifact_sha256.json": {
+    "source": "artifacts/robust_v1/artifact_sha256.json",
+    "sha256": "6287b6115183d98cd6a5b8c5d1196cd822c7e527dc786def8dde453a2a90c23a"
+  },
+  "evidence/robust_v1/config.json": {
+    "source": "artifacts/robust_v1/config.json",
+    "sha256": "39671bef9062f9df2c57427307a6abd420c7b0270bb5353766a264223ba245e4"
+  },
+  "evidence/robust_v1/config_before_group_speedup.json": {
+    "source": "artifacts/robust_v1/config_before_group_speedup.json",
+    "sha256": "12bc916dc29b4e045fb8ad704ecc355d277ab687dc4d745a5c10c6fd298cd953"
+  },
+  "evidence/robust_v1/config_failed_prepare.json": {
+    "source": "artifacts/robust_v1/config_failed_prepare.json",
+    "sha256": "cde9e7887aee654040627449e2358109f5f0c659b2cd5807bb414680c5bf3bbe"
+  },
+  "evidence/robust_v1/legacy_development_calibration.json": {
+    "source": "artifacts/robust_v1/legacy_development_calibration.json",
+    "sha256": "48ffb51ae88dd87e77187fd552aed7edb1d294cb19c8860b5426f9666aee1840"
+  },
+  "evidence/robust_v1/selection.json": {
+    "source": "artifacts/robust_v1/selection.json",
+    "sha256": "a9aa436a01775e31852b50d089f2fd97389d03e6850a050b6e8e2349669cac66"
+  },
+  "evidence/robust_v1/selection_before_inner_calibration_fix.json": {
+    "source": "artifacts/robust_v1/selection_before_inner_calibration_fix.json",
+    "sha256": "3cfe9559a81ce72c3b29f6216aef82282aa9ea3ec7a20aaf796a2c1aae0c1559"
+  },
+  "evidence/robust_v1/selection_before_simplicity_rule.json": {
+    "source": "artifacts/robust_v1/selection_before_simplicity_rule.json",
+    "sha256": "1a1aeb23ffc78a17da961de675351ace02e3d7e7b558c92a75a68c61e2d59fd4"
+  },
+  "evidence/robust_v1/verification.json": {
+    "source": "artifacts/robust_v1/verification.json",
+    "sha256": "c2508234cc4d753e5adc50cf149a21f177bbd97d8d7342b904128f58baec247e"
+  },
+  "evidence/hedonic_v1/artifact_sha256.json": {
+    "source": "artifacts/hedonic_v1/artifact_sha256.json",
+    "sha256": "d7124aa2a1f7818a21fb575afd48e2227ac85daa19b50bf15f6f75de0ff1025b"
+  },
+  "evidence/hedonic_v1/centered_config.json": {
+    "source": "artifacts/hedonic_v1/centered_config.json",
+    "sha256": "19fa850078d0cfcd75d97811c92b7e5993b94cc898fcc59751fd359c9b60ec51"
+  },
+  "evidence/hedonic_v1/config.json": {
+    "source": "artifacts/hedonic_v1/config.json",
+    "sha256": "2cea3b32751453000c99e163158dd3ebe40bd27ee9bb97027a062013f59f9d06"
+  },
+  "evidence/hedonic_v1/leaderboard_feedback.json": {
+    "source": "artifacts/hedonic_v1/leaderboard_feedback.json",
+    "sha256": "b3ee395c3fd348d1475917778d0bc9aa335f6d9cbdca73b10b41dfd399964f31"
+  },
+  "evidence/hedonic_v1/selection.json": {
+    "source": "artifacts/hedonic_v1/selection.json",
+    "sha256": "c6131e84161b090cf7dd9c46db7469d68c08d18fe6d58fc786be814eb043010e"
+  },
+  "evidence/hedonic_v1/submission_changes.json": {
+    "source": "artifacts/hedonic_v1/submission_changes.json",
+    "sha256": "5c3b83f934bee4ad5b076dcad2c79144c6f2d5600c52a38ff0787bb85a3b0c94"
+  },
+  "evidence/hedonic_v1/verification.json": {
+    "source": "artifacts/hedonic_v1/verification.json",
+    "sha256": "fda31e612ebc02f67ee4097b2c2e9ab9e6a6cf9de94f0b607662dba5d0c4f14d"
+  },
+  "evidence/shift_v1/config.json": {
+    "source": "artifacts/shift_v1/config.json",
+    "sha256": "18b9426a290972f0548d0a94d71f5ef73c3be8b5de6925fd4d2c965c3223b8d9"
+  },
+  "evidence/shift_v1/leaderboard_feedback.json": {
+    "source": "artifacts/shift_v1/leaderboard_feedback.json",
+    "sha256": "782e0088a105b35de63646cc7ab7ca532209f6ddb307d9a0e178f179ad2d6764"
+  },
+  "evidence/shift_v1/prediction_change.json": {
+    "source": "artifacts/shift_v1/prediction_change.json",
+    "sha256": "6ec355229b5eccbcfcdb7bcadb3e1ce817d74df36fcdb5365b2adfb7009608f6"
+  },
+  "evidence/shift_v1/selection.json": {
+    "source": "artifacts/shift_v1/selection.json",
+    "sha256": "12c670ae5ffab49b0ab1d4e7074170dd4ea57269d4b0f26610eddd75e0292a2b"
+  },
+  "evidence/shift_v1/source_manifest.json": {
+    "source": "artifacts/shift_v1/source_manifest.json",
+    "sha256": "7b329d662a84a872f94924c96fbdf5477d0ddd4a051cdc845577b8d1bf1e6650"
+  },
+  "evidence/shift_v1/verification.json": {
+    "source": "artifacts/shift_v1/verification.json",
+    "sha256": "b23109a075e6ac52968d563084baee55667bae7c5ad2d54d0d4609f6fa7ec2db"
+  },
+  "evidence/generalization_v1/audit_verification.json": {
+    "source": "artifacts/generalization_v1/audit_verification.json",
+    "sha256": "4b7ba8e361ed2137fbbbc08fb98d4b8d84074b3d8ccad24b38ffd8659f89ed8d"
+  },
+  "evidence/generalization_v1/completion.json": {
+    "source": "artifacts/generalization_v1/completion.json",
+    "sha256": "da6aa618a12dcc6c643f767ac18a5f425a7bd5e1f21f6312aab398fc49c185d4"
+  },
+  "evidence/generalization_v1/config.json": {
+    "source": "artifacts/generalization_v1/config.json",
+    "sha256": "e6f3ef73e982d19d0cfa444d7ebbcecd8e8dfbe079e97704095738470d209da9"
+  },
+  "evidence/generalization_v1/error_burden.json": {
+    "source": "artifacts/generalization_v1/error_burden.json",
+    "sha256": "a005626c76518fa7a12c72c4d9a656e7b7cca3b4de5ee821d1bbcd05550e18f2"
+  },
+  "evidence/generalization_v1/legacy_integrity.json": {
+    "source": "artifacts/generalization_v1/legacy_integrity.json",
+    "sha256": "163898f2b0e049d618bc8d7354ebfc07a07e3409d90b470ace86b77f007c6d5a"
+  },
+  "evidence/generalization_v1/scope.json": {
+    "source": "artifacts/generalization_v1/scope.json",
+    "sha256": "cb9b506083f6eb405ba4d48f5fd420205619591f3c8f3ced8ed054756a842180"
+  },
+  "evidence/generalization_v1/selection.json": {
+    "source": "artifacts/generalization_v1/selection.json",
+    "sha256": "8e260e020c127b5eec66a30bb24777b04d535e87eb13f07fd44b7b9ec37d5794"
+  },
+  "evidence/geography_v1/audit_verification.json": {
+    "source": "artifacts/geography_v1/audit_verification.json",
+    "sha256": "ca12b336f9c1384099c284d5bc92a858740c59f8c965d4d7c84268f253b6e937"
+  },
+  "evidence/geography_v1/completion.json": {
+    "source": "artifacts/geography_v1/completion.json",
+    "sha256": "eab67a64b7c6ffe6266b70371470ce3a976691f145aa25ad287e6d14eb660be2"
+  },
+  "evidence/geography_v1/config.json": {
+    "source": "artifacts/geography_v1/config.json",
+    "sha256": "5c4bcb678a44b4eb93af8816f6cb83ad097d76ce4b798ef54a5aa7002db5c9a4"
+  },
+  "evidence/geography_v1/confirmation.json": {
+    "source": "artifacts/geography_v1/confirmation.json",
+    "sha256": "850edb04e47902edf97fe665422f76990043dca44d044d8b61daaf158150458b"
+  },
+  "evidence/geography_v1/confirmation_location_diagnostic.json": {
+    "source": "artifacts/geography_v1/confirmation_location_diagnostic.json",
+    "sha256": "141768034198172f9320e79f0b473919951a0f7ae467df4d9776c50116402d04"
+  },
+  "evidence/geography_v1/coverage.json": {
+    "source": "artifacts/geography_v1/coverage.json",
+    "sha256": "65abdf90ad424e033eade61dc58190bcc541c8752e334d7142f7ccbe59515edb"
+  },
+  "evidence/geography_v1/development_location_diagnostic.json": {
+    "source": "artifacts/geography_v1/development_location_diagnostic.json",
+    "sha256": "cbe328a2a31c883268160937c343193b3be326191e63d50ba2b02407a302aad4"
+  },
+  "evidence/geography_v1/geocoder_audit.json": {
+    "source": "artifacts/geography_v1/geocoder_audit.json",
+    "sha256": "08b2a8f3dc4f50848c3354f23a6902ddd835ec0ab2c8927d10ba00067db7ee55"
+  },
+  "evidence/geography_v1/leaderboard_feedback.json": {
+    "source": "artifacts/geography_v1/leaderboard_feedback.json",
+    "sha256": "905bdebe82583a04a576ecca4d39ca4bc97a15d195160ae165a7d12f9ecf7be3"
+  },
+  "evidence/geography_v1/legacy_integrity.json": {
+    "source": "artifacts/geography_v1/legacy_integrity.json",
+    "sha256": "163898f2b0e049d618bc8d7354ebfc07a07e3409d90b470ace86b77f007c6d5a"
+  },
+  "evidence/geography_v1/reproduction.json": {
+    "source": "artifacts/geography_v1/reproduction.json",
+    "sha256": "bfb023e0b062e5ca3d8d618f6a552179b873f7170596f531afe9ab33defd5537"
+  },
+  "evidence/geography_v1/scope.json": {
+    "source": "artifacts/geography_v1/scope.json",
+    "sha256": "55741404908d74e95ec4e7eb64ba6a1a86b79cc3bbdadb3527bf8f5e97e28a11"
+  },
+  "evidence/geography_v1/seed_check.json": {
+    "source": "artifacts/geography_v1/seed_check.json",
+    "sha256": "a627ed191a7e90fbfd47f12c0bcaaedabe29f29a27512c805a9ea834fe7c8130"
+  },
+  "evidence/geography_v1/selection.json": {
+    "source": "artifacts/geography_v1/selection.json",
+    "sha256": "0b2e8aea5c8e9603b50ca2473660e6404c2d42fcf35960a5494f0566abd251c1"
+  },
+  "evidence/geography_v1/test_prediction_summary.json": {
+    "source": "artifacts/geography_v1/test_prediction_summary.json",
+    "sha256": "fc9beb41686944843ee9e521abc0ac64c028391f271cf1c8c920d38c5c6c4c39"
+  },
+  "evidence/geography_v1/verification.json": {
+    "source": "artifacts/geography_v1/verification.json",
+    "sha256": "b521d972d5a4bb9b28b8002d3c196f6d02870b0ed003fc71a969b8056676952c"
+  },
+  "evidence/policy_learned_v1/config.json": {
+    "source": "artifacts/policy_learned_v1/config.json",
+    "sha256": "149689ee36ce32d93856e3da4fa9026189a29e72e1def7f0781db3379f9fbf53"
+  },
+  "evidence/policy_learned_v1/leaderboard_feedback.json": {
+    "source": "artifacts/policy_learned_v1/leaderboard_feedback.json",
+    "sha256": "771258519b362419ba34607db9f9a99549fac0b64be3d654965b2acb0df9e9e2"
+  },
+  "evidence/policy_learned_v1/reproduction.json": {
+    "source": "artifacts/policy_learned_v1/reproduction.json",
+    "sha256": "9d6ff43569641863846e5947cada64a1fb20f0e0d3c6156a942a6547fdc6541f"
+  },
+  "evidence/policy_learned_v1/rules_assessment.json": {
+    "source": "artifacts/policy_learned_v1/rules_assessment.json",
+    "sha256": "17367cca1b1fb202f03499d51cd83d1e368274902246832289bd554004ae7602"
+  },
+  "evidence/policy_learned_v1/verification.json": {
+    "source": "artifacts/policy_learned_v1/verification.json",
+    "sha256": "402e1b477b4d46bd8a3e455e969c9f9b3c72572aec946d4ce7ae24b27dc75e36"
+  },
+  "evidence/overfitting_v7/assessment.json": {
+    "source": "artifacts/overfitting_v7/assessment.json",
+    "sha256": "c1ea46800bb39cab64f498f505165ae6c19d5ce0aeaf7063ce493ef9838c64c7"
+  },
+  "evidence/overfitting_v7/audit.json": {
+    "source": "artifacts/overfitting_v7/audit.json",
+    "sha256": "a58e778d8e36b48896ce53e1b081c6a157daa893818a6e5852c74402246e6aa3"
+  },
+  "evidence/overfitting_v7/before_horizon_boundary_correction.json": {
+    "source": "artifacts/overfitting_v7/before_horizon_boundary_correction.json",
+    "sha256": "85b78d9dcff30fa24f79148a2b6ee7118a9dc8dfa2440398740abd599921fbea"
+  },
+  "evidence/overfitting_v7/confirmation.json": {
+    "source": "artifacts/overfitting_v7/confirmation.json",
+    "sha256": "52dad3e49f412510993e4767d7f881e00a7c8fc59da0c70a1ff3f9886e29a898"
+  },
+  "evidence/overfitting_v7/development.json": {
+    "source": "artifacts/overfitting_v7/development.json",
+    "sha256": "b36ae8b8244d84c26a4bd99560f27254d05f9ccce7d715654aa2bd659e249903"
+  },
+  "evidence/overfitting_v7/input_inventory.json": {
+    "source": "artifacts/overfitting_v7/input_inventory.json",
+    "sha256": "da300b2b8f0bfd8ce331b90ea1f6db2ddc618938b432b3674e7767b9e9bc4e2e"
+  },
+  "evidence/overfitting_v7/protocol.json": {
+    "source": "artifacts/overfitting_v7/protocol.json",
+    "sha256": "1c5a8d6b917ac337748a3a3deec85fab20ab7607121364a4cc4e0eccd07f6d4a"
+  },
+  "evidence/overfitting_v7/stress2021.json": {
+    "source": "artifacts/overfitting_v7/stress2021.json",
+    "sha256": "7c8c8ca2c9303a6fc3d9f3a60304b47772ae0cdf19338f2ab4bb96ba18d00b17"
+  },
+  "evidence/overfitting_v7/verification.json": {
+    "source": "artifacts/overfitting_v7/verification.json",
+    "sha256": "720768833936530525adc463c2140bb7204a5c3cf65325777e84360c4754b8b5"
+  },
+  "evidence/policy_generalization_v1/assessment.json": {
+    "source": "artifacts/policy_generalization_v1/assessment.json",
+    "sha256": "a227f6b1847ccb782e6e2b679d601d12cd483a8a99303ddf3bad83ea1e83a6fd"
+  },
+  "evidence/policy_generalization_v1/audit.json": {
+    "source": "artifacts/policy_generalization_v1/audit.json",
+    "sha256": "f397e389aad8f8399c1ee22545f2b6d74ae4241b6652aa80925f68f45d5275cf"
+  },
+  "evidence/policy_generalization_v1/inference_checks.json": {
+    "source": "artifacts/policy_generalization_v1/inference_checks.json",
+    "sha256": "077dfa8fd9b9bb8df47da7a109c74a2b0ee160f31fba31e1566891fa70269a39"
+  },
+  "evidence/policy_generalization_v1/leave_one_project_out.json": {
+    "source": "artifacts/policy_generalization_v1/leave_one_project_out.json",
+    "sha256": "2411fc4499112f1bd1f2d3b5b3662a4e784288b222e1963febab499a3f9d41f1"
+  },
+  "evidence/policy_generalization_v1/leave_related_family_out.json": {
+    "source": "artifacts/policy_generalization_v1/leave_related_family_out.json",
+    "sha256": "96045204ea1524a24d30a05cb4ee701aef1e327ad0b0d2f28f46689c89e7db65"
+  },
+  "evidence/policy_generalization_v1/leave_source_out.json": {
+    "source": "artifacts/policy_generalization_v1/leave_source_out.json",
+    "sha256": "03839c12cdd9717b0373adcc8d746e50c39fea73724a3ccfecf13444f919c44a"
+  },
+  "evidence/policy_generalization_v1/protected_inventory.json": {
+    "source": "artifacts/policy_generalization_v1/protected_inventory.json",
+    "sha256": "00c24b8d40f065da95d65b48d0120dd53e64411f3e98e98622555d45d36f7e83"
+  },
+  "evidence/policy_generalization_v1/protocol.json": {
+    "source": "artifacts/policy_generalization_v1/protocol.json",
+    "sha256": "11b1f8a0f776b1531d0931ab96e9340e2e388a624f8ba91a7932c1612abbeb44"
+  },
+  "evidence/policy_generalization_v1/purged_leave_project_out.json": {
+    "source": "artifacts/policy_generalization_v1/purged_leave_project_out.json",
+    "sha256": "f4b18aec5d174e5c94594c6925d054fe140ed47c3341e8734daa72b9d3e5fde7"
+  },
+  "evidence/policy_generalization_v1/verification.json": {
+    "source": "artifacts/policy_generalization_v1/verification.json",
+    "sha256": "97c8b837bd5324601ce8394ac4a02c435df511e09d12a6fabca60c4dc7c7a20b"
+  },
+  "evidence/geography_v1/sources/accident_2020_a1.json": {
+    "source": "artifacts/geography_v1/sources/accident_2020_a1.json",
+    "sha256": "e8b037f4528789b8aa091cd3d530e844a9b439010bb15fbe867eeb1944bdc9ec"
+  },
+  "evidence/geography_v1/sources/accident_2020_a2_h1.json": {
+    "source": "artifacts/geography_v1/sources/accident_2020_a2_h1.json",
+    "sha256": "26d7752cd4f6d4412dd3d1a88a1e309050e698c1a3bd1092f96eb6a6455103cb"
+  },
+  "evidence/geography_v1/sources/accident_2020_a2_h2.json": {
+    "source": "artifacts/geography_v1/sources/accident_2020_a2_h2.json",
+    "sha256": "3a828d778bd44abb940af89d487ee7f0e3fa492050a9eafbd3fc48143970b4a5"
+  },
+  "evidence/policy_v1/sources/airport_handbook_202408.json": {
+    "source": "artifacts/policy_v1/sources/airport_handbook_202408.json",
+    "sha256": "13de22de4161d438b5ce8376da77eece55274b59817847e4225220564cbb1858"
+  },
+  "evidence/policy_v1/sources/nearby_handbook_202307.json": {
+    "source": "artifacts/policy_v1/sources/nearby_handbook_202307.json",
+    "sha256": "becf42a97122e5b776887dcaaef32a0b642b7a4c99244a2440c3abaac88473e9"
+  },
+  "evidence/policy_v1/sources/page_manifest.json": {
+    "source": "artifacts/policy_v1/sources/page_manifest.json",
+    "sha256": "8008e3f7405323ee2c1a294c5ab3bb3507823368c565bc8e8438ec949af8376a"
+  },
+  "report/figures/geography_study.png": {
+    "source": "artifacts/geography_v1/geography_study.png",
+    "sha256": "035d33386909bd8b2df00ac05ca700eabd66b3e637f927c9819f968a5ef05a45"
+  },
+  "report/figures/overfitting.png": {
+    "source": "artifacts/overfitting_v7/learning_curves.png",
+    "sha256": "a5285d57a42fb20f11ed61c49bfb9bb4f99c9bcf190561674e96d619b03dffaa"
+  },
+  "report/figures/policy_generalization.png": {
+    "source": "artifacts/policy_generalization_v1/generalization.png",
+    "sha256": "4d155d3d53f2a3a417e586695a41c319d9f4390d3db3bb04ce47344ef163f0e6"
+  },
+  "evidence/overfitting_v7/REPORT.txt": {
+    "source": "artifacts/overfitting_v7/REPORT.txt",
+    "sha256": "28f90e2c2ce1333187f9b73c8aa12b0ff5de4c202764a12a7d7f6dd1d8bb11d0"
+  },
+  "evidence/policy_generalization_v1/REPORT.txt": {
+    "source": "artifacts/policy_generalization_v1/REPORT.txt",
+    "sha256": "4df9660f62bb902c7d7681f3121c7d81c9c5d5b428f6b1afddc0f643119e71c1"
+  }
+}

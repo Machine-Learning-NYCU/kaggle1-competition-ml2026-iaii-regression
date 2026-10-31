@@ -1,0 +1,48 @@
+{
+  "diagnostic_only_no_routing_or_selection_changes": true,
+  "fixed_alpha": 0.25,
+  "rows": [
+    {
+      "location_level": 0,
+      "rows": 3,
+      "baseline_mae": 734976.482318712,
+      "candidate_mae": 742933.0616709726,
+      "gain_pct": -1.0825624416116009
+    },
+    {
+      "location_level": 1,
+      "rows": 1071,
+      "baseline_mae": 3287961.4917236106,
+      "candidate_mae": 3268952.4752353504,
+      "gain_pct": 0.5781398759112322
+    },
+    {
+      "location_level": 2,
+      "rows": 14044,
+      "baseline_mae": 1465404.033052238,
+      "candidate_mae": 1454558.1148639303,
+      "gain_pct": 0.7401315912661355
+    },
+    {
+      "location_level": 3,
+      "rows": 28229,
+      "baseline_mae": 1746029.7069441366,
+      "candidate_mae": 1696980.4070891638,
+      "gain_pct": 2.8091904542001167
+    },
+    {
+      "location_level": 4,
+      "rows": 3191,
+      "baseline_mae": 1875673.753027608,
+      "candidate_mae": 1871076.1846189913,
+      "gain_pct": 0.2451155698689811
+    },
+    {
+      "location_level": 5,
+      "rows": 5761,
+      "baseline_mae": 1320650.948324059,
+      "candidate_mae": 1342487.1098493773,
+      "gain_pct": -1.6534392795483965
+    }
+  ]
+}

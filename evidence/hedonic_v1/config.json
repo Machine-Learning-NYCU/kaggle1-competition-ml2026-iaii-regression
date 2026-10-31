@@ -1,0 +1,47 @@
+{
+  "specs": {
+    "net_log": {
+      "area": "net",
+      "spatial": false,
+      "depth": 8,
+      "loss": "RMSE"
+    },
+    "deep_log": {
+      "area": "total",
+      "spatial": false,
+      "depth": 10,
+      "loss": "RMSE"
+    },
+    "context_log": {
+      "area": "total",
+      "spatial": true,
+      "depth": 8,
+      "loss": "RMSE"
+    },
+    "net_huber": {
+      "area": "net",
+      "spatial": false,
+      "depth": 8,
+      "loss": "Huber:delta=0.10"
+    }
+  },
+  "learning_rate": 0.045,
+  "max_iterations": 5000,
+  "weight": "sqrt(price) for RMSE, price for log-Huber; bounded; no recency decay",
+  "source_sha256": {
+    "train_hedonic.py": "70e8097a3ce2ac047552742ef74e63af4984deceac122053c90170feae5e41b7",
+    "spatial_prior.py": "925e2d2ae497d8c7d9535eb5f696812ce24e9e1b27a9227c7a84177da8297358",
+    "train_spatial.py": "4a24da1646aa4231d3147f5f5606cc0571c50e63dabb374df0e1e3496f863622",
+    "robust_features.py": "76f9bf5f5993cbe2ff51697adfb60210cec34ca7a888e01dff24fc5c496bd736",
+    "train_robust.py": "4d7b90cdb39beaa86b2e96de6fbf5cf6a74d484974a758c05b3f8fbab8a80298",
+    "features.py": "59007e4cec3c7dcf2cf0e85d95e8e22c0a524db3633185fe453b33621d258e85"
+  },
+  "parent_selection_sha256": "a9aa436a01775e31852b50d089f2fd97389d03e6850a050b6e8e2349669cac66",
+  "spatial_config_sha256": "079646bb3c325e491db6b93ea5106016fba4da59254e3d0e46cd0c6cfa9a840c",
+  "early_stop": "First four months of 2022 development only",
+  "selection_windows": [
+    "stress2021",
+    "development"
+  ],
+  "confirmation_used_for_selection": false
+}
