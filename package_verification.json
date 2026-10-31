@@ -60,7 +60,7 @@
   },
   "publication": {
     "github_published": true,
-    "reference_template_verified": false,
+    "reference_template_verified": true,
     "destination_repository": "Machine-Learning-NYCU/kaggle1-competition-ml2026-iaii-regression",
     "write_access": true,
     "authenticated_login": "snoopyjim",
@@ -70,5 +70,20 @@
     "remote_title_verified": "314580075｜ML2026@IAII - Regression｜Kaggle 1 Competition",
     "remote_author_email_verified": "adogg5528@gmail.com",
     "verified_at": "2026-10-31T19:43:13+08:00"
+  },
+  "documentation": {
+    "reference_format_verified": true,
+    "reference_commit": "74c08f6f3fa1cbe09498fc45d377c7c10f7d5bfc",
+    "reference_reader_login": "jimhuang0731",
+    "publishing_login": "snoopyjim",
+    "checked_at": "2026-10-31T19:49:52+08:00",
+    "readme_and_technical_detail_local_links_verified": true,
+    "titles_include_student_id": "314580075",
+    "model_code_and_submission_files_unchanged": true,
+    "file_sha256": {
+      "README.md": "48235e6972174c354f9d9b49066625a2d9491bda7592ff735a025aa92f61734f",
+      "README_TECH_DETAIL.md": "05460298828f637de06068fc013fbbb53760a531a2f5fb8fcd275cd4ba03711a",
+      "evidence/report_format_reference.json": "43609a31b21ae3d0cd1a1dfeb2f887a7b4100d514e1fcd70e2e0194246d28a20"
+    }
   }
 }

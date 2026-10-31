@@ -1,0 +1,40 @@
+{
+  "repository": "Deep-Learning-NYCU/kaggle-3-reasoning-llm-sft-grpo-jimhuang0731",
+  "commit": "74c08f6f3fa1cbe09498fc45d377c7c10f7d5bfc",
+  "authenticated_login": "jimhuang0731",
+  "files": {
+    "README.md": {
+      "git_blob_sha": "7a17905d249bb4b06a62a0e86d02f3cf04be5dae",
+      "sha256": "49201b231d0d1d3f9c17dfe69b83899f6144d3da07ee9c910be51d9fa06f827c",
+      "bytes": 14600
+    },
+    "README_TECH_DETAIL.md": {
+      "git_blob_sha": "2e496873f666ddc0f186bd16e820f4ed62ebe706",
+      "sha256": "99c18ef5abbb396d787f4ae7390b3acf9b95fb807a836b7d8731974dbf469990",
+      "bytes": 18150
+    }
+  },
+  "verified_at": "2026-10-31T19:49:36+08:00",
+  "purpose": "Reference document organization only; no reference training data, code, model results or LLM claims copied.",
+  "structure_mapping": {
+    "README.md": [
+      "Student ID/name and primary artifact",
+      "Numbered workflow overview",
+      "Stage/script/output table",
+      "Rationale and frozen settings",
+      "Environment and prerequisite-aware commands",
+      "Inference and submission schema",
+      "Public scores and validation limitations",
+      "File inventory and external asset requirements"
+    ],
+    "README_TECH_DETAIL.md": [
+      "Student ID/name and primary artifact",
+      "Data-flow counts",
+      "Column transformations and leakage boundaries",
+      "Training objectives and physical features",
+      "Step-by-step illustrative inference",
+      "Selection, blending and export",
+      "Generalization diagnostics and limitations"
+    ]
+  }
+}
