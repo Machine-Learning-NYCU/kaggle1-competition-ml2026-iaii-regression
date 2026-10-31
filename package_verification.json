@@ -66,10 +66,11 @@
     "authenticated_login": "snoopyjim",
     "artifact_commit_verified": "ca7b882a176e7e3270f8d9ac0125f4b8b10ba0e8",
     "all_remote_file_hashes_match": true,
-    "remote_files_verified": 175,
+    "remote_files_verified": 177,
     "remote_title_verified": "314580075｜ML2026@IAII - Regression｜Kaggle 1 Competition",
     "remote_author_email_verified": "adogg5528@gmail.com",
-    "verified_at": "2026-10-31T19:43:13+08:00"
+    "verified_at": "2026-10-31T19:50:25+08:00",
+    "documentation_commit_verified": "5bf8c2bc55e2b13cc3f1cf96bde44caf78bcfe3e"
   },
   "documentation": {
     "reference_format_verified": true,

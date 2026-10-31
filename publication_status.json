@@ -16,14 +16,17 @@
   "authentication_method": "GitHub CLI device authorization",
   "requested_commit_email": "adogg5528@gmail.com",
   "github_published": true,
-  "status": "Previously published package verified; reference format now read and documentation aligned locally. Documentation update awaiting publication.",
+  "status": "Published report, code and final candidates; all 177 files verified remotely. README and technical detail document aligned with the authenticated reference repository.",
   "scores_current_through": "2026-10-18 user reports; no private score available",
   "published_artifact_commit": "ca7b882a176e7e3270f8d9ac0125f4b8b10ba0e8",
   "publication_verified_at": "2026-10-31T19:43:13+08:00",
   "repository_url": "https://github.com/Machine-Learning-NYCU/kaggle1-competition-ml2026-iaii-regression",
   "report_url": "https://github.com/Machine-Learning-NYCU/kaggle1-competition-ml2026-iaii-regression/blob/main/report/report.pdf",
-  "verified_file_count": 175,
+  "verified_file_count": 177,
   "reference_authenticated_login": "jimhuang0731",
   "reference_commit": "74c08f6f3fa1cbe09498fc45d377c7c10f7d5bfc",
-  "reference_format_verified_at": "2026-10-31T19:49:36+08:00"
+  "reference_format_verified_at": "2026-10-31T19:49:36+08:00",
+  "published_documentation_commit": "5bf8c2bc55e2b13cc3f1cf96bde44caf78bcfe3e",
+  "documentation_publication_verified_at": "2026-10-31T19:50:25+08:00",
+  "technical_report_url": "https://github.com/Machine-Learning-NYCU/kaggle1-competition-ml2026-iaii-regression/blob/main/README_TECH_DETAIL.md"
 }
